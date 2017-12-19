@@ -29,7 +29,6 @@ highlightjsVersion = "9.11.0"
 highlightjsCDN = "https://cdn.bootcss.com"
 highlightjsLang = ["r", "yaml"]
 highlightjsTheme = "github"
-progressively = true
 latestpostcount = 5
 progressively = true
 github = "Ebedthan"

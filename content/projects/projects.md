@@ -1,8 +1,35 @@
 +++
-date = "2015-08-19T20:29:37-07:00"
-title = "Projects"
+# Date this page was created.
+date = "2017-12-08"
+
+# Project title.
+title = "bioSyntax"
+
+# Project summary to display on homepage.
+summary = "Syntax highlithing for common biological files"
+
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview = "FastaBanner.png"
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["Bioinformatics", "Computational biology", "syntax-highlighting"]`
+tags = ["Bioinformatics", "Computational biology", "syntax-highlighting"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = "https://biosyntax.org"
+
+# Does the project detail page use math formatting?
+math = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "FastaBanner.png"
+caption = "My caption :smile:"
+
 +++
 
-_In this theme, it is possible to add sections like a Projects one for example. You can add plenty of articles about your projects and a presentation page that will be displayed before the list. All is modulable, if you don't want something._
+The objective of bioSyntax is to bring you closer to your data, giving you an intuitive & empathetic understanding of biology. 
 
-A Hollywood-funded film version, produced and filmed in the UK, was released in April 2005, and radio adaptations of the third, fourth, and fifth novels were broadcast from 2004 to 2005. Adams did many of these adaptations, including the novels, the TV series, the computer game, and the earliest drafts of the Hollywood film’s screenplay, and some of the stage shows introduced new material written by Adams.
+bioSyntax integreates seamlessly with vim (Linux / Mac / Win), sublime (Linux / Mac / Win), gedit (Linux / Win), & less (Linux / Mac). After installing bioSyntax files will automatically detected by file-extension.
+
+For more informations please visit the site of [biosyntax](https://biosyntax.org).

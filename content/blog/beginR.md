@@ -41,10 +41,10 @@ But i clearly want to recommand firslty to have an [**twitter**](https://twitter
 ### Blog pages
 
 I strongly recommend you to take a look at the webpage of:  
-* Yihui Xie [](https://yihui.name/): This page, under the vitae, of Yihui Xie contains many importants presentations, documents for a beginR.  
-* David Robinson [](https://varianceexplained.org/): You will soon fall in love with David Robinson after clicking the link.  
-* Hilary Parker [](https://hilaryparker.com/): Always important, interesting and precious informations and tutorials.  
-* Julia Silge [](https://juliasilge.com/): No comments.  
+* [Yihui Xie](https://yihui.name/): This page, under the vitae, of Yihui Xie contains many importants presentations, documents for a beginR.  
+* [David Robinson](https://varianceexplained.org/): You will soon fall in love with David Robinson after clicking the link.  
+* [Hilary Parker](https://hilaryparker.com/): Always important, interesting and precious informations and tutorials.  
+* [Julia Silge](https://juliasilge.com/): No comments.  
 
 
 ### Books available on internet  

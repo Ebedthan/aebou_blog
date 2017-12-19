@@ -1,4 +1,4 @@
-baseurl = " https://elastic-hamilton-df822f.netlify.com."
+baseurl = "https://elastic-hamilton-df822f.netlify.com"
 theme = "cocoa-eh-hugo-theme"
 builddrafts = true
 canonifyurls = true
@@ -30,7 +30,7 @@ latestpostcount = 5
 #github = "Ebedthan"
 email = "anicet.ebou@gmail.com"
 #linkedin = "john-example-aa80ue8è"
-twitter = "@anicetebou"
+twitter = "anicetebou"
 #facebook = "facebook_id"
 social_banner = "img/banner.png"
 usesmallsummarycard = true

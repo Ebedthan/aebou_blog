@@ -1,6 +1,6 @@
 ---
 author: "Anicet Ebou"
-date: 2017-19-12
+date: 2017-12-19
 title: BeginR
 --- 
 

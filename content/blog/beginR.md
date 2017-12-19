@@ -1,4 +1,8 @@
-# BeginR  
+---
+author: "Anicet Ebou"
+date: 2017-19-12
+title: BeginR
+--- 
 
 ## Follow and engage with the community  
 

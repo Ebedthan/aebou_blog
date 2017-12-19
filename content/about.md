@@ -1,12 +1,39 @@
 +++
-date = "2015-08-22"
-title = "About"
+# About/Biography widget.
+widget = "about"
+active = true
+date = "2016-04-20T00:00:00"
+
+# Order that this section will appear in.
+weight = 5
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Bioinformatics",
+    "Genomic Data Science",
+    "Molecular Biology"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "Msc. Crop Protection (Bioinformatics)"
+  institution = "Institut National Polytechnique de Yamoussoukro"
+  year = 2017
+
+[[education.courses]]
+  course = "Bsc. in Agronomy"
+  institution = "Institut National Polytechnique de Yamoussoukro"
+  year = 2015
+ 
 +++
 
-_With this theme, it is possible to add small sections that only contains one page like this. It will automatically appears in the header, at the end._
+# Biography
 
-Along with [Ford Prefect](https://en.wikipedia.org/wiki/Ford_Prefect_\(character\)), Dent barely escapes the Earth's destruction as it is demolished to make way for a *hyperspace bypass*. Arthur spends the next several years, still wearing his dressing gown, helplessly launched from crisis to crisis while trying to straighten out his lifestyle.  
- 
-> He rather enjoys tea, but seems to have trouble obtaining it in the far reaches of the galaxy.  
- 
-In time, he learns how to fly and carves a niche for himself as a sandwich-maker.
+From my studies i'm a crop protection engineer. I have done my master thesis in the field of bioinformatics at [the Institute of Ecology and Evolution of University of Bern](http://www.iee.unibe.ch/index_eng.html) under the supervision of [Dominique Koua](https://www.linkedin.com/in/dominique-koua-4397a313/) and [Lucia Kuhn-Nentwig](http://www.ecol.iee.unibe.ch/about_us/staff/dr_kuhn_nentwig_lucia/index_eng.html), the principal scientific that works on [*Cupiennius salei*](https://en.wikipedia.org/wiki/Cupiennius_salei).  
+
+My thesis was "Prediction, functionnal annotation and classification of toxins-like peptides: case of the venom gland of *Macroctenus kingsleyi*".  
+
+I have launched [**@AbidjanRusers**](https://twitter.com/AbidjanRusers) in 2016.  
+
+For more informations see my [vitae](http://aebou.rbind.io/vitae).

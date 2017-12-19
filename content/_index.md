@@ -3,29 +3,6 @@
 widget = "about"
 active = true
 date = "2016-04-20T00:00:00"
-
-# Order that this section will appear in.
-weight = 5
-
-# List your academic interests.
-[interests]
-  interests = [
-    "Bioinformatics",
-    "Genomic Data Science",
-    "Molecular Biology"
-  ]
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "Msc. Crop Protection (Bioinformatics)"
-  institution = "Institut National Polytechnique de Yamoussoukro"
-  year = 2017
-
-[[education.courses]]
-  course = "Bsc. in Agronomy"
-  institution = "Institut National Polytechnique de Yamoussoukro"
-  year = 2015
- 
 +++
 
 # Biography

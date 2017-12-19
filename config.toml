@@ -10,7 +10,6 @@ author = "Anicet Ebou"
 title = "Anicet Ebou"
 disqusshortname = ""
 pluralizelisttitles = false
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
 blog = "blog/:slug/"

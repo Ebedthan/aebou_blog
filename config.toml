@@ -18,18 +18,23 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Anicet Ebou's Blog"
+description = "A blog by Anicet Ebou"
 copyright = "Copyright © 2017 Anicet Ebou"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 logofile = "img/aebou.jpeg"
 faviconfile = "img/aebou.jpeg"
 highlightjs = true
+# options for highlight.js (version, additional languages, and theme)
+highlightjsVersion = "9.11.0"
+highlightjsCDN = "https://cdn.bootcss.com"
+highlightjsLang = ["r", "yaml"]
+highlightjsTheme = "github"
 progressively = true
-share = true
 latestpostcount = 5
-#github = "Ebedthan"
+progressively = true
+github = "Ebedthan"
 email = "anicet.ebou@gmail.com"
-#linkedin = "john-example-aa80ue8è"
+linkedin = "anicetebou"
 twitter = "anicetebou"
 #facebook = "facebook_id"
 social_banner = "img/banner.png"

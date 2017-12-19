@@ -21,8 +21,8 @@ dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "A blog by Anicet Ebou"
 copyright = "Copyright © 2017 Anicet Ebou"
 copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-logofile = "img/aebou.jpeg"
-faviconfile = "img/aebou.jpeg"
+logofile = "img/aebou.png"
+faviconfile = "img/ebou.png"
 highlightjs = true
 # options for highlight.js (version, additional languages, and theme)
 highlightjsVersion = "9.11.0"

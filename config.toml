@@ -1,5 +1,5 @@
-baseurl = "https://elastic-hamilton-df822f.netlify.com"
-theme = "cocoa-eh-hugo-theme"
+baseurl = "https://elastic-hamilton-df822f.netlify.com/"
+theme = "cocoa-eh"
 builddrafts = true
 canonifyurls = true
 contentdir = "content"
@@ -7,7 +7,7 @@ languageCode = "en-US"
 layoutdir = "layouts"
 publishdir = "public"
 author = "Anicet Ebou"
-title = "Anicet Ebou"
+title = "Anicet Ebou's Blog"
 disqusshortname = ""
 pluralizelisttitles = false
 
@@ -17,29 +17,25 @@ blog = "blog/:slug/"
 [params]
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "A blog by Anicet Ebou"
+description = "Blog of Anicet Ebou"
 copyright = "Copyright © 2017 Anicet Ebou"
-copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
+# copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
 logofile = "img/ebou.png"
 faviconfile = "img/ebou.png"
 highlightjs = true
-# options for highlight.js (version, additional languages, and theme)
-highlightjsVersion = "9.11.0"
-highlightjsCDN = "https://cdn.bootcss.com"
-highlightjsLang = ["r", "yaml"]
-highlightjsTheme = "github"
-latestpostcount = 5
 progressively = true
+share = true
+latestpostcount = 5
 github = "Ebedthan"
 email = "anicet.ebou@gmail.com"
-# linkedin = "anicetebou"
+#linkedin = "john-example-aa80ue8è"
 twitter = "anicetebou"
 #facebook = "facebook_id"
 social_banner = "img/banner.png"
 usesmallsummarycard = true
 posts_navigation = true
 # issoHost = "comments.domain.tld:1234"
-# githubRepo = "Ebedthan/aebou_blog"
+# githubRepo = "githubUsername/repositoryName"
 small_banner_logo = false
 
 [params.colors]

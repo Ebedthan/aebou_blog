@@ -1,5 +1,5 @@
 baseurl = "https://elastic-hamilton-df822f.netlify.com/"
-theme = "cocoa-eh"
+theme = "cocoa-eh-hugo-theme"
 builddrafts = true
 canonifyurls = true
 contentdir = "content"

@@ -47,6 +47,3 @@ I strongly recommend you to take a look at the webpage of:
 * [Hilary Parker](https://hilaryparker.com/): Always important, interesting and precious informations and tutorials.  
 * [Julia Silge](https://juliasilge.com/): No comments.  
 
-
-### Books available on internet  
-

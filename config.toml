@@ -1,4 +1,4 @@
-baseurl = "https://aebou.rbind.io/"
+baseurl = "http://aebou.rbind.io/"
 theme = "cocoa-eh-hugo-theme"
 builddrafts = true
 canonifyurls = true

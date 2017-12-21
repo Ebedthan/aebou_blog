@@ -1,4 +1,4 @@
-baseurl = "https://elastic-hamilton-df822f.netlify.com/"
+baseurl = "https://aebou.rbind.io/"
 theme = "cocoa-eh-hugo-theme"
 builddrafts = true
 canonifyurls = true

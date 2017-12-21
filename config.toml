@@ -9,6 +9,7 @@ publishdir = "public"
 author = "Anicet Ebou"
 title = "Anicet Ebou"
 disqusshortname = ""
+googleAnalytics = "UA-111109114-1"
 pluralizelisttitles = false
 
 [permalinks]

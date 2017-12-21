@@ -1,15 +1,11 @@
 ---
 author: "Anicet Ebou"
 date: 2017-12-19
-title: BeginR
+title: BeginR: Follow and engage with the community
 --- 
-
-## Follow and engage with the community  
 
 First of all begining with R (so we can said that you are a beginR) you will be fueled by many tutorial on the web just by googling first time.  
 But i clearly want to recommand firslty to have an [**twitter**](https://twitter.com) account and to follow and engage with the community.  
-
-## Follow and engage with the community  
 
 ### People to follow on twitter  
 

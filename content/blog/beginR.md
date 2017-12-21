@@ -1,5 +1,4 @@
 ---
-author: "Anicet Ebou"
 date: 2017-12-19
 slug: BeginR_Follow
 title: BeginR: Follow and engage with the community

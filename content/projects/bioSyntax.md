@@ -5,8 +5,7 @@ date = "2017-12-08"
 # Project title.
 title = "bioSyntax"
 
-+++
-# bioSyntax  
++++ 
 
 ![](/img/FastaBanner.png)  
 

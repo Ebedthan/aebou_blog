@@ -1,12 +1,13 @@
 ---
 date: 2017-12-19
 slug: "BeginR_Follow"
-title: "BeginR: Follow and engage with the community"
+title: "BeginR : Follow and engage with the community"
 tags: [rstats]
 ---
 
 First of all begining with R (so we can said that you are a beginR) you will be fueled by many tutorial on the web just by googling first time.  
-But i clearly want to recommand firslty to have an [**twitter**](https://twitter.com) account and to follow and engage with the community.  
+But i clearly want to recommand firslty to have an [**twitter**](https://twitter.com) account and to follow and engage with the community. 
+Lists below reflects only my littel knowledge and experience and also my point of view.  
 
 ### People to follow on twitter  
 
@@ -42,8 +43,13 @@ But i clearly want to recommand firslty to have an [**twitter**](https://twitter
 ### Blog pages
 
 I strongly recommend you to take a look at the webpage of:  
+
 * [Yihui Xie](https://yihui.name/): This page, under the vitae, of Yihui Xie contains many importants presentations, documents for a beginR.  
 * [David Robinson](https://varianceexplained.org/): You will soon fall in love with David Robinson after clicking the link.  
 * [Hilary Parker](https://hilaryparker.com/): Always important, interesting and precious informations and tutorials.  
-* [Julia Silge](https://juliasilge.com/): No comments.  
+* [Julia Silge](https://juliasilge.com/): No comments (my hidden mentor).  
+
+### Finally  
+
+I think that you cannot correctly grow in your learning of R (leaRning) without being engaged with the R community. So this little article take place of an advice if you plan to learn, to get involved or learn more in R.  
 

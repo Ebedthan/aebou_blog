@@ -8,7 +8,7 @@ layoutdir = "layouts"
 publishdir = "public"
 author = "Anicet Ebou"
 title = "Anicet Ebou"
-disqusshortname = ""
+disqusshortname = "aebou"
 googleAnalytics = "UA-111109114-1"
 pluralizelisttitles = false
 

@@ -33,17 +33,18 @@ Usually, on twitter you should use the hashtags #rstats, #R or #rstudio to find 
 * Jenny Bryan [@JennyBryan](https://twitter.com/JennyBryan)  
 * Julia Silge [@juliasilge](https://twitter.com/juliasilge)  
 * Karl Browman [@kwbroman](https://twitter.com/kwbroman)  
-* Hilary Parker [@hpster](https://twitter.com/hpster)  
+* Hilary Parker [@hpster](https://twitter.com/hspter)  
 * Garret Grolemund [@StatGarrett](https://twitter.com/@StatGarrett)  
 * Joe Cheng [@jcheng](https://twitter.com/@jcheng)  
 * Charlotte Wickham [@CVWickham](https://twitter.com/CVWickham)  
 * Jeroen Ooms [@opencpu](https://twitter.com/opencpu)  
-* Jim Hester [@jimhester](https://twitter.com/jimhester)  
+* Jim Hester [@jimhester_](https://twitter.com/jimhester_)  
 * Mara Averick [@dataandme](https://twitter.com/dataandme)  
 * Roger D. Peng [@rdpeng](https://twitter.com/rdpeng)  
 * Jeff Leek [@jtleek](https://twitter.com/jtleek)  
 * Karthik Ram [@_inundata](https://twitter.com/_inundata)  
 * Amber Thomas [@ProQuesAsker](https://twitter.com/ProQuesAsker)
+* Alison Hill [@apreshill](https://twitter.com/apreshill)  
 
 ### Organizations to follow on twitter  
 
@@ -55,15 +56,16 @@ Usually, on twitter you should use the hashtags #rstats, #R or #rstudio to find 
 
 * [Rstudio](https://rstudio.com)  
 * [Cran](https://cran.r-project.com)  
-* [R bloggers](https://r-bloggers.com)  
+* [R bloggers](https://r-bloggers.org)  
 
 
 ### Blog pages
 
 I strongly recommend you to take a look at the webpage of:  
 
+* [Hadley Wickham](https://hadley.nz)
 * [Yihui Xie](https://yihui.name/)  
-* [David Robinson](https://varianceexplained.org/)  
+* [David Robinson](http://varianceexplained.org/)  
 * [Hilary Parker](https://hilaryparker.com/)   
 * [Julia Silge](https://juliasilge.com/)   
 * [Maëlle Salmon](http://www.masalmon.eu/)  
@@ -75,7 +77,7 @@ I strongly recommend you to take a look at the webpage of:
 
 ### Online books  
 
-While visiting webpages [Hadley Wickham](https://hadley.nz) and [Yihui Xie](https://yihui.name) you will find many links to books online and others incredible ressources for anyone who wants to learn R.   
+While visiting webpages Hadley Wickham and Yihui Xie you will find many links to books online and others incredible ressources for anyone who wants to learn R.   
 
 ### Finally  
 

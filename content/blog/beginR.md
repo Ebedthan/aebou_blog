@@ -79,5 +79,5 @@ While visiting webpages [Hadley Wickham](https://hadley.nz) and [Yihui Xie](http
 
 ### Finally  
 
-I think that you cannot correctly grow in your learning of R without being engaged with the R community. So this little article take place as an advice if you plan to learn, to get involved or learn more in R.  
+One of the benefits of be engaged with the community is helpful and useful links that comes with tweets. I think that you cannot correctly grow in your learning of R without being engaged with the R community. So this little article take place as an advice if you plan to learn, to get involved or learn more in R. I can say that if you want to know what is going in R you just have to open your twitter page and read your feed.  
 

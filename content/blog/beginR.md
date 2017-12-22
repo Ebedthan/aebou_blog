@@ -5,11 +5,11 @@ title: "Follow and engage with the R community"
 tags: [rstats, beginR]
 ---
 
-<div style="text-align: right"> *"R is not just a programming language, but it is also an interactive environment for doing data science."*   
+*"R is not just a programming language, but it is also an interactive environment for doing data science."*   
 
 *"Investing a little time in learning R each day will pay off handsomely in the long run."*   
 
-*Hadley Wickham and Garret Grolemund in R for Data Science.* </div>
+*Hadley Wickham and Garret Grolemund in R for Data Science.*
 
 R is not just a programming language or an interactive environment for data science, but i have found that R is also one of the best community around in every ways that could help a beginR growing in R.
 

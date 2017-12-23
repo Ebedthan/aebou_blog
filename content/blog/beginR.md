@@ -27,7 +27,7 @@ While this post aims to help beginR, it could also be of good help for more expe
 
 ### Hashtags 
 
-Usually, on twitter you should use the hashtags #rstats, #R or #rstudio to find out what is going on R. 
+Usually, on twitter you should use the hashtags `#rstats`, `#R` or `#rstudio` to find out what is going around R. 
 
 ### People to follow on twitter  
 

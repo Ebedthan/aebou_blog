@@ -17,11 +17,11 @@ tags: [rstats, beginR]
 
 R is not just a programming language or an interactive environment for data science, but i have found that R is also one of the best community around in every ways that could help a beginR growing in R.
 
-And for that, twitter is one of the key tools used by the R community, and we can add blogs and websites, but i clearly recommend to have a [**twitter**](https://twitter.com) account and to follow and get involved in the R community.  
+And for that, twitter is one of the key tools used by the R community, and we can add blogs and websites, but i clearly recommend to beginR to have a [twitter](https://twitter.com) account and to follow and get involved in the R community.  
 
 After this first step, if you plan to do a carreer in data science or relative fields you should [start a blog](http://varianceexplained.org/r/start-blog/) and visit regularly others blogs and websites.  
 
-Below, i have put a list of peoples, blogs an websites to help.
+Below, i have put a list of peoples, blogs and websites to help.
 
 While this post aims to help beginR, it could also be of good help for more experienced useRs.  
 
@@ -77,7 +77,8 @@ I strongly recommend you to take a look at the webpage of:
 * [Alison Hill](https://alison.rbind.io)  
 * [Amber Thomas](https://amber.rbind.io)  
 * [Simply statistics](https://simplystatistics.org/)  
-* Check also webpages of others R masters. You can generally find links to their websites on the profile page of their twitter accounts.  
+
+Check also webpages of others R masters. You can generally find links to their websites on the profile page of their twitter accounts.  
 
 ### Online books  
 

@@ -1,8 +1,8 @@
 ---
 date: 2017-12-19
 slug: "BeginR_Follow"
-title: "Follow and engage with the R community"
-tags: [rstats, beginR]
+title: "How to follow and engage with the R community"
+tags: [rstats, blogs, twitter]
 ---
 
 > "R is not just a programming language, but it is also an interactive environment for doing data science." 
@@ -12,21 +12,23 @@ tags: [rstats, beginR]
    
    
        
+When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network. Nobody could help me learn or know more on R in Ivory Coast from my attempts to find peoples to help me.  
        
+So one day searching on internet, going from links to links, i have found R-bloggers and Rstudio. After that found Hadley Wickham and begin to get interested really on learning R.  
 
-R is not just a programming language or an interactive environment for data science, but i have found that R is also one of the best community around in every ways that could help a beginR growing in R.
+The best things i have found in R is that R is also one of the best community around in every ways that could help a beginR growing in R. All i know on R today comes from posts, links, helps, tips and encouragment from the R community.  
 
-And for that, twitter is one of the key tools used by the R community, and we can add blogs and websites, but i clearly recommend to beginR to have a [twitter](https://twitter.com) account and to follow and get involved in the R community.  
+To stay current with the R community i mostly used Twiiter. Twitter is one of the key tools used by the R community, and we can add blogs and websites, but i clearly recommend to beginR to have a [twitter](https://twitter.com) account and to follow and get involved in the R community.  
 
 After this first step, if you plan to do a carreer in data science or relative fields you should [start a blog](http://varianceexplained.org/r/start-blog/) and visit regularly others blogs and websites.  
 
-Below, i have put a list of peoples, blogs and websites to help.
+Below, i have put a list of peoples, blogs and websites that help me and continue to be a great source of infoRmations to stay current. This list is reflect my own point of view and surely lack some importants links you probably think as important (please leave a comment below) and don't forget that this list is just a *at least list*.  
 
-While this post aims to help beginR, it could also be of good help for more experienced useRs.  
+While this post aims to help beginR, it could also be of good help for more experienced useRs. This post will be updated at least every year to help peoples.  
 
 ### Hashtags 
 
-Usually, on twitter you should use the hashtags `#rstats`, `#R` or `#rstudio` to find out what is going around R. 
+Usually, on twitter you should use the hashtags `#rstats`, `#R` or `#rstudio` to find out what is going around R. You should also learn to use [rtweet](https://cran.r-project.org/).
 
 ### People to follow on twitter  
 
@@ -81,7 +83,8 @@ Check also webpages of others R masters. You can generally find links to their w
 
 ### Online books  
 
-While visiting webpages Hadley Wickham and Yihui Xie you will find many links to books online and others incredible ressources for anyone who wants to learn R.   
+* [R for data science](http://r4ds.had.co.nz/) authored by Hadley Wickham and Garret Grolemund.
+* [Blogdown: creating websites with R Markdown](https://bookdown.org/yihui/blogdown/) authored by Yihui Xie, Amber Thomas and Alison Presmanes Hill.   
 
 ### Finally  
 

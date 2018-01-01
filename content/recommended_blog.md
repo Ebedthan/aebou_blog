@@ -1,8 +1,6 @@
----
-date: 
-title: Recommended Blog
-tags: ["Rstats"]
----
++++
+title: "Recommended Blog"
++++
 
 * [R Weekly](https://rweekly.org)  
 * [R bloggers](https://r-bloggers.com)  

@@ -1,5 +1,5 @@
 +++
-title: "Recommended Blog"
+title = "Recommended Blog"
 +++
 
 * [R Weekly](https://rweekly.org)  

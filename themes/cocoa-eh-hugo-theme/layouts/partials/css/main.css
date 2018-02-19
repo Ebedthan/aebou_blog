@@ -715,3 +715,9 @@ div.main .content .share a {
 .wf-ubuntu-mono-n4-active div.main .content .markdown pre {
   font-family: 'Ubuntu Mono';
 }
+
+/* My changes */
+
+.img-circle {
+  border-radius: 50%;
+}

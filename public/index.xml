@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anicet Ebou</title>
+    <link>/</link>
+    <description>Recent content on Anicet Ebou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Found Myself doing Data science in marketing</title>
+      <link>/post/2018-06-17-how-i-found-myself-in-marketing/</link>
+      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
+      
+      <guid>/post/2018-06-17-how-i-found-myself-in-marketing/</guid>
+      <description>Since February 26 i am working at Seedstars Ivory Coast in a venture named Bora digital who works mostly in marketing and digital marketing.
+From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.
+How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies?</description>
+    </item>
+    
+    <item>
+      <title>How to follow and engage with the R community</title>
+      <link>/post/beginr_follow/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/beginr_follow/</guid>
+      <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
+&amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
+Hadley Wickham and Garret Grolemund in R for Data Science.
+ When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.</description>
+    </item>
+    
+    <item>
+      <title>bioSyntax</title>
+      <link>/projects/biosyntax/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/biosyntax/</guid>
+      <description>The purpose of bioSyntax is to bring you closer to your data, giving you an intuitive &amp;amp; empathetic understanding of biology.
+bioSyntax integrate seamlessly with vim (Linux / Mac / Win), sublime (Linux / Mac / Win), gedit (Linux / Win), &amp;amp; less (Linux / Mac). After installing bioSyntax files will automatically detected by file-extension.
+The projects was developed during hackseq 2017 and won the hackathlon.
+I&amp;rsquo;m really proud to be a part of the bioSyntax team and of this project.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/2018-06-17-how-i-found-myself-in-marketing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-06-17-how-i-found-myself-in-marketing/</guid>
+      <description>code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>From my studies i&amp;rsquo;m a crop protection engineer. I have done my master thesis in the field of bioinformatics at the Institute of Ecology and Evolution of University of Bern under the supervision of Dominique Koua and Lucia Kuhn-Nentwig.
+My master thesis was about &amp;ldquo;Prediction, functionnal annotation and classification of toxins-like peptides: case of the venom gland of Macroctenus kingsleyi&amp;rdquo;.
+I am looking for opportunities to do my PhD in bioinformtics or Genomics data science, so any proposition will be really helpful for me.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/</guid>
+      <description>I did not learned all i know by myself. R is above all else a fantastic community and i have learned from many kind peoples. I strongly recommend you to check blog of Yihui Xie, David Robinson, Julia Silge, Maelle Salmon, R Studio Blog, R Weekly, R bloggers and Simply Statistics. You will learn a lot from theses blogs.
+For more about who to follow and how to get involved in R community check my post on this subject here.</description>
+    </item>
+    
+  </channel>
+</rss>

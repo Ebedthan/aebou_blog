@@ -10,4 +10,4 @@ I am looking for opportunities to do my PhD in bioinformtics or Genomics data sc
 
 I have also launched [**@AbidjanRusers**](https://twitter.com/AbidjanRusers) in 2016.  
 
-For more informations see my [vitae](https://aebou.rbind.io/vitae).
+For more informations see my [vitae](../static/files/ae.pdf).

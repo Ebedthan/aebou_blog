@@ -6,17 +6,17 @@
     <description>Recent content in Tags on Anicet Ebou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 19 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blogs</title>
-      <link>/tags/blogs/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      <title> Marketing</title>
+      <link>/tags/marketing/</link>
+      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
       
-      <guid>/tags/blogs/</guid>
+      <guid>/tags/marketing/</guid>
       <description></description>
     </item>
     
@@ -30,16 +30,16 @@
     </item>
     
     <item>
-      <title>Marketing</title>
-      <link>/tags/marketing/</link>
-      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
+      <title>blogs</title>
+      <link>/tags/blogs/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/tags/marketing/</guid>
+      <guid>/tags/blogs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Rstats</title>
+      <title>rstats</title>
       <link>/tags/rstats/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       
@@ -48,7 +48,7 @@
     </item>
     
     <item>
-      <title>Twitter</title>
+      <title>twitter</title>
       <link>/tags/twitter/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       

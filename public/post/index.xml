@@ -13,10 +13,10 @@
     
     <item>
       <title>How I Found Myself doing Data science in marketing</title>
-      <link>/post/2018-06-17-how-i-found-myself-in-marketing/</link>
+      <link>/post/2018/2018-06-17-how-i-found-myself-in-marketing/</link>
       <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
       
-      <guid>/post/2018-06-17-how-i-found-myself-in-marketing/</guid>
+      <guid>/post/2018/2018-06-17-how-i-found-myself-in-marketing/</guid>
       <description>Since February 26 i am working at Seedstars Ivory Coast in a venture named Bora digital who works mostly in marketing and digital marketing.
 From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.
 How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies?</description>
@@ -24,10 +24,10 @@ How do you did it? Why are you know working in marketings ? Why are you not as y
     
     <item>
       <title>How to follow and engage with the R community</title>
-      <link>/post/beginr_follow/</link>
+      <link>/post/2017/beginr_follow/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/beginr_follow/</guid>
+      <guid>/post/2017/beginr_follow/</guid>
       <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
 &amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
 Hadley Wickham and Garret Grolemund in R for Data Science.
@@ -36,10 +36,10 @@ Hadley Wickham and Garret Grolemund in R for Data Science.
     
     <item>
       <title></title>
-      <link>/post/2019-05-27-building-my-first-r-package/</link>
+      <link>/post/2019/2019-05-27-building-my-first-r-package/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/post/2019-05-27-building-my-first-r-package/</guid>
+      <guid>/post/2019/2019-05-27-building-my-first-r-package/</guid>
       <description>+++ title = ‘2019 05 27 Building My First R Package’ date = 2019-05-27T09:46:23Z draft = true meta_img = “/images/image.jpg” tags = [“tags”] description = “Desc” hacker_news_id = “” lobsters_id = “” +++
 The begining In the beginning I read a post from David Robinson advising aspiring Data scientist to start a blog and to create a package starting by data package that can be useful.
 So I decided to follow his advice and tried to find a good purpose for my package first.</description>

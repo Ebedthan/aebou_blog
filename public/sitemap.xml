@@ -21,7 +21,7 @@
   </url>
   
   <url>
-    <loc>/post/2018-06-17-how-i-found-myself-in-marketing/</loc>
+    <loc>/post/2018/2018-06-17-how-i-found-myself-in-marketing/</loc>
     <lastmod>2018-06-17T17:37:23+00:00</lastmod>
   </url>
   
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>/post/beginr_follow/</loc>
+    <loc>/post/2017/beginr_follow/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>/post/2019-05-27-building-my-first-r-package/</loc>
+    <loc>/post/2019/2019-05-27-building-my-first-r-package/</loc>
     <priority>0</priority>
   </url>
   
@@ -83,10 +83,6 @@
   <url>
     <loc>/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/home/</loc>
   </url>
   
 </urlset>

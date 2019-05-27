@@ -1,0 +1,25 @@
+
+
+
+<p>+++ title = ‘2019 05 27 Building My First R Package’ date = 2019-05-27T09:46:23Z draft = true meta_img = “/images/image.jpg” tags = [“tags”] description = “Desc” hacker_news_id = “” lobsters_id = “” +++</p>
+<div id="the-begining" class="section level1">
+<h1>The begining</h1>
+<p>In the beginning I read a post from <a href="http://varianceexplained.org/">David Robinson</a> advising aspiring Data scientist to start a blog and to create a package starting by data package that can be useful.</p>
+<p>So I decided to follow his advice and tried to find a good purpose for my package first.</p>
+<p>On my way I encountered the <a href="https://cran.r-project.org/web/packages/dslabs/index.html">dslabs</a> and <a href="https://cran.r-project.org/package=gapminder">gapminder</a> packages used by many R users and Jennifer Bryan to teach students. I therefore found the <a href="https://www.gapminder.org/">gapminder</a> site being an amazing source of data.</p>
+<p>Now the next thing to find was the purpose of my package, the why. Beyond the advice from David Robinson I had in mind to build a package that can be really useful for peoples especially African peoples. In Africa, it’s obvious that it’s almost impossible to find data on our countries or keys social, economic or environmental fields for instance. So my idea was that if I can grab enough data on African countries and put together all theses datasets into an R package, it can be very useful for African. And this was my why: put in hand of African first data on Africa.</p>
+</div>
+<div id="the-development" class="section level1">
+<h1>The development</h1>
+<p>My why found and the source found, th enext question for me was to know how can I built this package? An once again the amazing R community brung me an answer through the R packages book of Hadley Wickham.</p>
+<p>This book gave me all I need to build my package from dataset to the final package without any other need for other book.</p>
+<p>I found it more than useful but precious.</p>
+<p>With the help of R package book the development process was quite straightforward. And in no more than one month I was already done. The one month duration was actually due to the fact that I was working from at a company and that I needed to download all the spreadsheet wanted first from Gapminder.</p>
+<p>During the development, the part where I learnt a lot was in automatizing the import, tidy and transformation steps of data from .xlsx file to .rda files.</p>
+</div>
+<div id="the-end" class="section level1">
+<h1>The end</h1>
+<p>Now my package named after my purpose afrods, is available from my <a href="https://github.com/ebedthan">github</a> and can be installed right in R using:</p>
+<pre class="r"><code>devtools::install_github(&#39;ebedthan/afrods&#39;)</code></pre>
+<p>Hope this will help many peoples, R users, Data analyst or scientist in Africa an around the world for teaching and for drawing insigths.</p>
+</div>

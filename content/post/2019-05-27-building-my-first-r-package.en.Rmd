@@ -2,9 +2,9 @@
 title = '2019 05 27 Building My First R Package'
 date = 2019-05-27T09:46:23Z
 draft = true
-meta_img = "/images/image.jpg"
-tags = ["tags"]
-description = "Desc"
+meta_img = ""
+tags = ["R","Data Science"]
+description = "Building a data package for R. A first experience."
 hacker_news_id = ""
 lobsters_id = ""
 +++

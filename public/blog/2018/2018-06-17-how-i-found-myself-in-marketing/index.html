@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>How I Found Myself doing Data science in marketing - Biology informaticized</title>
+<meta name="description" content="From genomic to marketing data">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.55.6" />
+  
+<meta itemprop="name" content="How I Found Myself doing Data science in marketing">
+<meta itemprop="description" content="From genomic to marketing data">
+
+
+<meta itemprop="datePublished" content="2018-06-17T17:37:23&#43;00:00" />
+<meta itemprop="dateModified" content="2018-06-17T17:37:23&#43;00:00" />
+<meta itemprop="wordCount" content="788">
+
+
+
+<meta itemprop="keywords" content="Data Science, Marketing," />
+
+  <meta property="og:title" content="How I Found Myself doing Data science in marketing" />
+<meta property="og:description" content="From genomic to marketing data" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/2018/2018-06-17-how-i-found-myself-in-marketing/" />
+<meta property="article:published_time" content="2018-06-17T17:37:23&#43;00:00"/>
+<meta property="article:modified_time" content="2018-06-17T17:37:23&#43;00:00"/>
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How I Found Myself doing Data science in marketing"/>
+<meta name="twitter:description" content="From genomic to marketing data"/>
+<meta name="twitter:site" content="@anicetebou"/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      <link rel="stylesheet" href="/css/main.min.css">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  <script src="https://www.google.com/recaptcha/api.js?render=6LcEs6UUAAAAAPF6M8sD_M769O7RrPixxfPd0ROY"></script>
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            Blog
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        <a href="/" class="link"><i class="fas fa-home">&nbsp;</i>Home</a>
+      
+        <a href="/blog/" class="link"><i class="far fa-newspaper">&nbsp;</i>Blog</a>
+      
+        <a href="/projects/" class="link"><i class="fas fa-sitemap">&nbsp;</i>Projects</a>
+      
+        <a href="/about/" class="link"><i class="far fa-id-card">&nbsp;</i>About</a>
+      
+      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+
+    </menu>
+    
+
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="lang-toggle" lang="en"><span class="flag-icon flag-icon-en" alt="en"></span></a>
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="lang-menu" class="flyout-menu">
+  <a href="#" lang="en" class="active"><span class="flag-icon flag-icon-en" alt="en"></span></a>
+  
+    
+      
+    
+      
+        <a href="/fr" lang="fr" class="no-lang"><span class="flag-icon flag-icon-fr" alt="fr"></span></a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+  
+    <a href="//twitter.com/share?url=&amp;text=&amp" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+      <a href="//www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="noopener" class="share-btn facebook">
+        <i class="fab fa-facebook"></i><p>&nbsp;Facebook</p>
+        </a>
+  
+
+  
+    <a href="//reddit.com/submit?url=&amp;title=" target="_blank" rel="noopener" class="share-btn reddit">
+          <i class="fab fa-reddit-alien"></i><p>&nbsp;Reddit</p>
+        </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=&amp;title=" target="_blank" rel="noopener" class="share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="//www.stumbleupon.com/submit?url=&amp;title=" target="_blank" rel="noopener" class="share-btn stumbleupon">
+          <i class="fab fa-stumbleupon"></i><p>&nbsp;StumbleUpon</p>
+        </a>
+  
+
+  
+        <a href="//www.pinterest.com/pin/create/button/?url=&amp;description=" target="_blank" rel="noopener" class="share-btn pinterest">
+          <i class="fab fa-pinterest-p"></i><p>&nbsp;Pinterest</p>
+        </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by &amp;body=" target="_blank" class="share-btn email">
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/aebou.jpg" class="circle" width="" alt="Ancet Ebou" /></a>
+  <header>
+    <h1>Anicet Ebou</h1>
+  </header>
+  <main>
+    <p>Biology informaticized</p>
+  </main>
+  
+    <footer>
+      <ul class="social-icons">
+        
+
+        <li><a href="//github.com/ebedthan" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/anicet-ebou" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/Anicet%20Ebou" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/anicetebou" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//scholar.google.com/citations?user=citations%3fuser%3dt5Xg23sAAAAJ%26hl%3den" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+<li><a href="//orcid.org/0000-0003-4005-177X" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a></li>
+
+<li><a href="mailto:anicet.ebou@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+            
+            <header>
+  <div class="title">
+    
+      <h1><a href="/blog/2018/2018-06-17-how-i-found-myself-in-marketing/">How I Found Myself doing Data science in marketing</a></h1>
+      
+    
+    
+      <p>From genomic to marketing data</p>
+    
+  </div>
+</header>
+
+            <div id="content">
+                
+
+<p>Since February 26 i am working at <a href="https://seedstars.com">Seedstars</a> Ivory Coast in a venture named <a href="https://bora.digital">Bora digital</a> who works mostly in marketing and digital marketing.</p>
+
+<p>From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.</p>
+
+<p>How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies? Peoples always ask me!</p>
+
+<p>Here, as an answer and also to motivate people who could find themselves in situation like me, i wrote why i think i was hired in marketing doing data science.</p>
+
+<h2 id="it-s-about-skills-not-diploma">It&rsquo;s about skills not diploma</h2>
+
+<p>The first thing i think and also i am sure that is the main reason for me to now be there is skills and not diploma and i think it&rsquo;s real in many areas.</p>
+
+<p>If you don&rsquo;t know, peoples at Seedstars use a difficult hiring process including case of studies, IQ test, English proficiency language tests and finally a bootcamp of two weeks follow with two interviews with Seedstars managers before you can hope been hired.</p>
+
+<p>Theses steps was succesful for me and i was hired. I really think that i was hired because of skills i shown and not my diploma.</p>
+
+<p>The present give me reason because as soon as i come inside this startup environment i begin offering markets to my company that they can&rsquo;t do before, because they mostly require data science skills.</p>
+
+<p>It&rsquo;s in this environment i first found how useful can be a data scientist in a marketing world. I begun to take a look to how previous peoples in my case did and tried to implement their advice into my working flow and convince company to include them and results are pretty good!</p>
+
+<h2 id="thinking">Thinking</h2>
+
+<p><em><strong>There is more important than the way to achieve it is the power to believe it</strong> &ndash;Nagato in Naruto</em></p>
+
+<p>I really think that this sentence is correct, and i never leave someone let me think the opposite. This thinking really help me keep a purpose driven thinking.</p>
+
+<p>I have a strong belief that data is data. We have many types of data like biological data, economic data of examples but if you find your way in one type of data with a relative little amount of work and persistance you can master this new type of data.</p>
+
+<p>The same way i think that biological data are the strongest one because we are talking biological data comes from living beings and for example modelize a behavior of a living being is really not easy at all. So i you find your way in biology, you will find your way in other data.</p>
+
+<p>So before continue my studies (Yes, i&rsquo;ll do it), i am know working in marketing and the one that let me believe it&rsquo;s possible to come from a background of biology or bioinformatics to Data Science is <a href="http://varianceexplained.org/">David Robinson</a></p>
+
+<h2 id="work">Work</h2>
+
+<p>I was thinking that if i want to know something and acquire skills it demands me to invest time, strentgh, time, coffee, time, and time.</p>
+
+<p>The amounts of time i took learning R, Python, Perl (and what regex is), Ruby, git and what is this Github!  are huge. I left my windows laptop and turn to linux without previous experience (this let me crash my linux installation many times). Data Camp, Coursera, Codecademy was my learning places, and today i am proud because i never lost my investment.</p>
+
+<p>Whatever i learned 3 years ago is now giving me skills and understanding.</p>
+
+<h2 id="models">Models</h2>
+
+<p>An advice find you an model if you don&rsquo;t already have one. Because they will give you inspiration and strength when you will be tired and near to abandon. They will revive your purpose and your dreams.</p>
+
+<p>My personnal models in Science and Data Science are <a href="http://hadley.nz/">Hadley Wickham</a> (Truly i don&rsquo;t know why i love him so much!), <a href="https://yihui.name">Yihui Xie</a> (He is like a god for me for instance as he took me out of latex bugs and so on), David Robinson as i previously mentionned is name, <a href="https://juliasilge.com/">Julia Silge</a> (Yes from Astronomy to Stack Overflow) and <a href="https://www.linkedin.com/in/dominique-koua-4397a313">Dominique Koua</a> (For giving me the feeling that i am valuable and i can do bioinformatics).</p>
+
+<p>For my people in Africa, i just want to say you can do all thing just believe it and work as much as you can and you will achieve and reach.</p>
+
+<p>I not think i am done. Marketing is just a step on my way. Teaching Bioinformatics and Data Science, Starting and finishing my PhD are my next goals. Soon i will be there, trust me!</p>
+
+<p>Don&rsquo;t let your dreams off. You can reach!</p>
+
+            </div>
+        </article>
+      </main>
+      <section id="site-sidebar">
+  <section id="recent-posts">
+    <header>
+      <h1>Recent posts</h1>
+    </header>
+    
+    
+  </section>
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>About</h1>
+    </header>
+    <p>test</p>
+    <footer>
+      <a href="/about" class="button">Learn More</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="social-icons">
+        
+
+        <li><a href="//github.com/ebedthan" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/anicet-ebou" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/Anicet%20Ebou" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/anicetebou" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+<li><a href="//scholar.google.com/citations?user=citations%3fuser%3dt5Xg23sAAAAJ%26hl%3den" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>
+<li><a href="//orcid.org/0000-0003-4005-177X" target="_blank" rel="noopener" title="ORCID"><i class="ai ai-orcid"></i></a></li>
+
+<li><a href="mailto:anicet.ebou@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    
+      Copyright © 2019 Anicet Ebou
+    .
+    Powered by <a href="//gohugo.io" target="_blank" rel="noopener">Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-111109114-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    </div>
+  </body>
+</html>

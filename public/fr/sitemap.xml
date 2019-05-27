@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/fr/post/2019-05-27-qu-est-ce-que-c-est-que-les-donnees-biologiques/</loc>
+  </url>
+  
+  <url>
+    <loc>/fr/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/post/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+  </url>
+  
+</urlset>

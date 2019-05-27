@@ -106,8 +106,8 @@ copyright               = "Copyright © 2019 Anicet Ebou"
 
     [params.staticman.recaptcha]
       recaptcha         = true
-      siteKey           = "6LcEs6UUAAAAAPF6M8sD_M769O7RrPixxfPd0ROY" # Site Key
-      encryptedKey      = "6LcEs6UUAAAAAP0AosAPHsSNajPioMCfenkBEkfj"
+      siteKey           = "" # Site Key
+      encryptedKey      = ""
 
 [menu]
   # Sets the menu items in the navigation bar

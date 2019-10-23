@@ -1,70 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Biology informaticized</title>
+    <title>Hello Friend NG</title>
     <link>/</link>
-    <description>Recent content on Biology informaticized</description>
+    <description>Recent content on Hello Friend NG</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2019 Anicet Ebou</copyright>
-    <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>How I Found Myself doing Data science in marketing</title>
-      <link>/post/2018-06-17-how-i-found-myself-in-marketing/</link>
-      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
-      
-      <guid>/post/2018-06-17-how-i-found-myself-in-marketing/</guid>
-      <description>Since February 26 i am working at Seedstars Ivory Coast in a venture named Bora digital who works mostly in marketing and digital marketing.
-From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.
-How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies?</description>
-    </item>
-    
-    <item>
-      <title>How to follow and engage with the R community</title>
-      <link>/post/how_to_follow_and_engage_with_the_r_community/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/how_to_follow_and_engage_with_the_r_community/</guid>
-      <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
-&amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
-Hadley Wickham and Garret Grolemund in R for Data Science.
- When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.</description>
-    </item>
-    
-    <item>
-      <title>bioSyntax</title>
-      <link>/projects/biosyntax/</link>
-      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/biosyntax/</guid>
-      <description>The purpose of bioSyntax is to bring you closer to your data, giving you an intuitive &amp;amp; empathetic understanding of biology.
-bioSyntax integrate seamlessly with vim (Linux / Mac / Win), sublime (Linux / Mac / Win), gedit (Linux / Win), &amp;amp; less (Linux / Mac). After installing bioSyntax files will automatically detected by file-extension.
-The projects was developed during hackseq 2017 and won the hackathlon.
-I&amp;rsquo;m really proud to be a part of the bioSyntax team and of this project.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/2019-05-27-building-my-first-r-package/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-05-27-building-my-first-r-package/</guid>
-      <description>+++ title = ‘2019 05 27 Building My First R Package’ date = 2019-05-27T09:46:23Z draft = true meta_img = &#34;&#34; tags = [“R”,“Data Science”] description = “Building a data package for R. A first experience.” hacker_news_id = &#34;&#34; lobsters_id = &#34;&#34; +++
-The begining In the beginning I read a post from David Robinson advising aspiring Data scientist to start a blog and to create a package starting by data package that can be useful.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/2019-05-27-what-is-biological-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-05-27-what-is-biological-data/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>About</title>

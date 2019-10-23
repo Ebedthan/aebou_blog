@@ -3,24 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/fr/post/2019-05-27-qu-est-ce-que-c-est-que-les-donnees-biologiques/</loc>
-  </url>
-  
-  <url>
-    <loc>/fr/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>/fr/</loc>
     <xhtml:link
                 rel="alternate"

@@ -1,7 +1,7 @@
-baseurl                 = "https://aebou.rbind.io/"
+baseurl                = "https://aebou.rbind.io/"
 DefaultContentLanguage  = "en"
 title                   = "Biology informaticized"
-theme                   = "hugo-future-imperfect-slim"
+theme = "hugo-theme-hello-friend-ng"
 preserveTaxonomyNames   = true
 builddrafts             = false
 canonifyurls            = true

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Biology informaticized</title>
@@ -53,7 +53,7 @@ I&amp;rsquo;m really proud to be a part of the bioSyntax team and of this projec
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/post/2019-05-27-building-my-first-r-package/</guid>
-      <description>+++ title = ‘2019 05 27 Building My First R Package’ date = 2019-05-27T09:46:23Z draft = true meta_img = “” tags = [“R”,“Data Science”] description = “Building a data package for R. A first experience.” hacker_news_id = “” lobsters_id = “” +++
+      <description>+++ title = ‘2019 05 27 Building My First R Package’ date = 2019-05-27T09:46:23Z draft = true meta_img = &#34;&#34; tags = [“R”,“Data Science”] description = “Building a data package for R. A first experience.” hacker_news_id = &#34;&#34; lobsters_id = &#34;&#34; +++
 The begining In the beginning I read a post from David Robinson advising aspiring Data scientist to start a blog and to create a package starting by data package that can be useful.</description>
     </item>
     

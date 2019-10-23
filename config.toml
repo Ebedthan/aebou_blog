@@ -1,5 +1,5 @@
 baseurl                = "https://aebou.rbind.io/"
-title   = "Hello Friend NG"
+title   = "Anicet Ebou"
 
 DefaultContentLanguage = "en"
 
@@ -38,7 +38,7 @@ disableHugoGeneratorInject = false
   posts = "/posts/:year/:month/:title/"
 
 [author]
-  name = "Jane Doe"
+  name = "Anicet Ebou"
 
 [blackfriday]
   hrefTargetBlank = true
@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   category = ""
 
 [params]
-  dateform        = "Jan 2, 2006"
+  dateform        = "2 Jan, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Hello Friend NG"
+  homeSubtitle = "Biology & Data"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
@@ -74,7 +74,7 @@ disableHugoGeneratorInject = false
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # Default theme "light" or "dark"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   themeColor = "#252627"
 
   [params.logo]
@@ -90,19 +90,15 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:anicet.ebou@gmail.com"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/ebedthan"
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    url  = "https://www.linkedin.com/in/anicet-ebou"
 
 [languages]
   [languages.en]

@@ -6,10 +6,20 @@
     <description>Recent content on Anicet Ebou</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I&amp;rsquo;m African. I believe that proper use of technology can dramatically enhances daily lives of manies around us especially in Africa. In Africa, simple things elsewhere are often hard to implements locally. Everything seems hard to do because of many issues.
+But Africa is the youngest continent and therefore is full of purpose and it will be for the next 10 years also. As a young African, I have found my right spot at a cross of many roads.</description>
+    </item>
     
     <item>
       <title>How I Found Myself doing Data science in marketing</title>
@@ -32,26 +42,6 @@ How do you did it? Why are you know working in marketings ? Why are you not as y
 &amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
 Hadley Wickham and Garret Grolemund in R for Data Science.
  When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/1/01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/1/01/</guid>
-      <description></description>
     </item>
     
   </channel>

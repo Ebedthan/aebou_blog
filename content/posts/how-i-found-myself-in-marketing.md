@@ -51,7 +51,7 @@ Whatever i learned 3 years ago is now giving me skills and understanding.
 
 ## Models
 
-An advice find you an model if you don't already have one. Because they will give you inspiration and strength when you will be tired and near to abandon. They will revive your purpose and your dreams. 
+An advice, find you a model if you don't already have one. Because they will give you inspiration and strength when you will be tired and near to abandon. They will revive your purpose and your dreams. 
 
 My personnal models in Science and Data Science are [Hadley Wickham](http://hadley.nz/) (Truly i don't know why i love him so much!), [Yihui Xie](https://yihui.name) (He is like a god for me for instance as he took me out of latex bugs and so on), David Robinson as i previously mentionned is name, [Julia Silge](https://juliasilge.com/) (Yes from Astronomy to Stack Overflow) and [Dominique Koua](https://www.linkedin.com/in/dominique-koua-4397a313) (For giving me the feeling that i am valuable and i can do bioinformatics).
 
@@ -60,5 +60,5 @@ For my people in Africa, i just want to say you can do all thing just believe it
 
 I not think i am done. Marketing is just a step on my way. Teaching Bioinformatics and Data Science, Starting and finishing my PhD are my next goals. Soon i will be there, trust me!
 
-Don't let your dreams off. You can reach!
+Don't let your dreams off. You can overtake them!
 

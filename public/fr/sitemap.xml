@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/fr/posts/1/01/</loc>
+    <loc>/fr/about/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
   </url>
   
   <url>
     <loc>/fr/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,21 +33,53 @@
   </url>
   
   <url>
-    <loc>/fr/categories/</loc>
+    <loc>/fr/tags/marketing/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/tags/marketing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/categories/"
+                href="/fr/tags/marketing/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/posts/2018/06/comment-je-me-suis-retrouv%C3%A9-entrain-de-faire-la-data-science-dans-le-marketing/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2018/06/how-i-found-myself-doing-data-science-in-marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2018/06/comment-je-me-suis-retrouv%C3%A9-entrain-de-faire-la-data-science-dans-le-marketing/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/data-science/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/data-science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/data-science/"
                 />
   </url>
   
   <url>
     <loc>/fr/posts/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -50,6 +94,7 @@
   
   <url>
     <loc>/fr/tags/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -59,6 +104,80 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/blogs/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/blogs/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/posts/2017/12/comment-sengager-avec-la-communaut%C3%A9-r/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2017/12/how-to-follow-and-engage-with-the-r-community/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2017/12/comment-sengager-avec-la-communaut%C3%A9-r/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/rstats/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rstats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/rstats/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/tags/twitter/</loc>
+    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/twitter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/twitter/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
                 />
   </url>
   

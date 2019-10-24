@@ -4,19 +4,18 @@ aliases:
 - about-hugo
 - contact
 author:
-  name: Hugo Authors
-date: "2014-04-09"
+  name: Anicet Ebou
+date: "2019-10-24"
 title: About
 ---
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+I'm African. I believe that proper use of technology can dramatically enhances daily lives of manies around us especially in Africa.
+In Africa, simple things elsewhere are often hard to implements locally. Everything seems hard to do because of many issues.
 
-It makes use of a variety of open source projects including:
+But Africa is the youngest continent and therefore is full of purpose and it will be for the next 10 years also.
+As a young African, I have found my right spot at a cross of many roads. I'm a mix of biologist (plant and molecules), statistician and informatician a.k.a bioinformatician.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+My purpose is as simple as to lead a generation of great African doers bringing great changes by daily small improvements.
+Tackles challenges, this is what I do.
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+I welcome you on my journey!!!

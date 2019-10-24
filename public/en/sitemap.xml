@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/marketing/</loc>
-    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -23,13 +33,48 @@
   </url>
   
   <url>
+    <loc>/tags/marketing/</loc>
+    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/marketing/"
+                />
+  </url>
+  
+  <url>
     <loc>/tags/data-science/</loc>
     <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/data-science/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/data-science/"
+                />
   </url>
   
   <url>
     <loc>/posts/2018/06/how-i-found-myself-doing-data-science-in-marketing/</loc>
     <lastmod>2018-06-17T17:37:23+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2018/06/comment-je-me-suis-retrouv%C3%A9-entrain-de-faire-la-data-science-dans-le-marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2018/06/how-i-found-myself-doing-data-science-in-marketing/"
+                />
   </url>
   
   <url>
@@ -65,30 +110,61 @@
   <url>
     <loc>/tags/blogs/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/blogs/"
+                />
   </url>
   
   <url>
     <loc>/posts/2017/12/how-to-follow-and-engage-with-the-r-community/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2017/12/comment-sengager-avec-la-communaut%C3%A9-r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2017/12/how-to-follow-and-engage-with-the-r-community/"
+                />
   </url>
   
   <url>
     <loc>/tags/rstats/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/rstats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rstats/"
+                />
   </url>
   
   <url>
     <loc>/tags/twitter/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/1/01/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/twitter/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/twitter/"
+                />
   </url>
   
   <url>

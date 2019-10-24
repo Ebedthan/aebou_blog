@@ -5,16 +5,180 @@
         <description>Recent content in Posts on Anicet Ebou</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
         <atom:link href="/fr/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title></title>
-            <link>/fr/posts/1/01/</link>
-            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <title>Comment je me suis retrouvé entrain de faire la Data Science dans le marketing</title>
+            <link>/fr/posts/2018/06/comment-je-me-suis-retrouv%C3%A9-entrain-de-faire-la-data-science-dans-le-marketing/</link>
+            <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
             
-            <guid>/fr/posts/1/01/</guid>
-            <description></description>
-            <content type="html"><![CDATA[]]></content>
+            <guid>/fr/posts/2018/06/comment-je-me-suis-retrouv%C3%A9-entrain-de-faire-la-data-science-dans-le-marketing/</guid>
+            <description>Depuis le 26 Février je travaille à Seedstars Ivory Coast dans une venture appelé Bora digital qui est axé sur le marketing digital.
+D&amp;rsquo;une première formation en agronomie (mon Bsc) à la bioinformatique (mon maître), à chaque étape, j&amp;rsquo;ai été confronté aux surprises, aux questions et aux oppositions des personnes qui m&amp;rsquo;entouraient.
+Comment avez-vous fait ? Pourquoi travaillez-vous dans le marketing ? Pourquoi n&amp;rsquo;êtes-vous pas vos pairs qui travaillent dans des fermes ou qui poursuivent au moins des études en bioinformatique ?</description>
+            <content type="html"><![CDATA[
+
+<p>Depuis le 26 Février je travaille à <a href="https://seedstars.com" target="_blank">Seedstars</a> Ivory Coast dans une venture appelé <a href="https://bora.digital" target="_blank">Bora digital</a> qui est axé sur le marketing digital.</p>
+
+<p>D&rsquo;une première formation en agronomie (mon Bsc) à la bioinformatique (mon maître), à chaque étape, j&rsquo;ai été confronté aux surprises, aux questions et aux oppositions des personnes qui m&rsquo;entouraient.</p>
+
+<p>Comment avez-vous fait ? Pourquoi travaillez-vous dans le marketing ? Pourquoi n&rsquo;êtes-vous pas vos pairs qui travaillent dans des fermes ou qui poursuivent au moins des études en bioinformatique ? Les gens me demandent toujours!</p>
+
+<p>Ici, comme réponse et aussi pour motiver les gens qui pourraient se retrouver dans une situation comme la mienne, j&rsquo;ai écrit pourquoi je pense que j&rsquo;ai été engagé dans le marketing en faisant de la science des données.</p>
+
+<h2 id="les-compétences-plutôt-que-le-diplôme">Les compétences plutôt que le diplôme</h2>
+
+<p>La première chose à laquelle je pense et dont je suis sûr que c&rsquo;est la raison principale pour laquelle je fais ce que je fais actuellement, c&rsquo;est que ce sont les compétences et non le diplôme qui président et je pense que cela est réel dans de nombreux domaines.</p>
+
+<p>Si vous ne le saviez pas, à de Seedstars utilisent un processus d&rsquo;embauche difficile incluant des études de cas, un test de QI, des tests de compétence en anglais et finalement un camp d&rsquo;entraînement de deux semaines suivi de deux entrevues avec des gestionnaires de Seedstars avant que vous puissiez espérer être embauché.</p>
+
+<p>Ces étapes ont été couronnées de succès pour moi et j&rsquo;ai été embauché. Je pense vraiment que j&rsquo;ai été embauché à cause des compétences que j&rsquo;ai montrées et non de mon diplôme.</p>
+
+<p>Le présent me donne raison parce que dès que j&rsquo;arrive dans cet environnement de démarrage, je commence à offrir à mon entreprise des marchés qu&rsquo;elle ne peut pas faire avant, parce qu&rsquo;ils exigent surtout des compétences en sciences des données.</p>
+
+<p>C&rsquo;est dans cet environnement que j&rsquo;ai d&rsquo;abord découvert à quel point un spécialiste des données peut être utile dans un monde de marketing. J&rsquo;ai commencé à examiner la façon dont les personnes qui m&rsquo;ont précédé dans mon cas l&rsquo;ont fait et j&rsquo;ai essayé d&rsquo;appliquer leurs conseils dans mon flux de travail et de convaincre l&rsquo;entreprise de les inclure et les résultats sont assez bons.!</p>
+
+<h2 id="le-mindset">Le mindset</h2>
+
+<p><em><strong>There is more important than the way to achieve it is the power to believe it</strong> &ndash;Nagato in Naruto</em></p>
+
+<p>Je pense vraiment que cette citation est correcte, et je ne laisse jamais quelqu&rsquo;un me laisser penser le contraire. Cette façon de penser m&rsquo;aide vraiment à garder une pensée axée sur un but.</p>
+
+<p>Je crois fermement que les données sont des données. Nous disposons de nombreux types de données comme les données biologiques, les données économiques d&rsquo;exemples, mais si vous trouvez votre chemin dans un type de données avec une quantité relativement faible de travail et de persistance, vous pouvez maîtriser ce nouveau type de données.</p>
+
+<p>De la même manière, je pense que les données biologiques sont les plus fortes parce que nous parlons de données biologiques vient des êtres vivants et par exemple modéliser un comportement d&rsquo;un être vivant n&rsquo;est vraiment pas facile du tout. Donc si vous trouvez votre chemin en biologie, vous trouverez votre chemin dans d&rsquo;autres données.</p>
+
+<p>Donc avant de continuer mes études (Oui, je vais le faire), je sais que je travaille dans le marketing et celui qui me fait croire qu&rsquo;il est possible de venir d&rsquo;une formation en biologie ou en bioinformatique à Data Science est <a href="http://varianceexplained.org/" target="_blank">David Robinson</a></p>
+
+<h2 id="le-travail">Le Travail</h2>
+
+<p>Je pensais que si je veux savoir quelque chose et acquérir des compétences, cela me demande d&rsquo;investir du temps, de la force, du temps, du café, du temps et du temps.</p>
+
+<p>Le temps que j&rsquo;ai pris à apprendre R, Python, Perl (et ce qu&rsquo;est le regex), Ruby, git et ce qu&rsquo;est ce Github ! sont énormes. J&rsquo;ai quitté mon ordinateur portable Windows et je me suis tourné vers linux sans expérience préalable (ce qui m&rsquo;a permis de planter mon installation linux plusieurs fois). Data Camp, Coursera, Codecademy ont été mes lieux d&rsquo;apprentissage, et aujourd&rsquo;hui je suis fier parce que je n&rsquo;ai jamais perdu mon investissement.</p>
+
+<p>Ce que j&rsquo;ai appris il y a 3 ans me donne maintenant des compétences et de la compréhension.</p>
+
+<h2 id="les-modèles">Les modèles</h2>
+
+<p>Un conseil, trouvez vous un modèle si vous n&rsquo;en avez pas déjà un. Parce qu&rsquo;ils vous donneront inspiration et force quand vous serez fatigués et proches de l&rsquo;abandon. Ils raviveront votre but et vos rêves.</p>
+
+<p>Mes modèles personnels en sciences et en sciences des données sont les suivants <a href="http://hadley.nz/" target="_blank">Hadley Wickham</a> (Vraiment je ne sais pas pourquoi je l&rsquo;aime tant !), <a href="https://yihui.name" target="_blank">Yihui Xie</a> (Il est comme un dieu pour moi par exemple quand il m&rsquo;a sorti des insectes du latex et ainsi de suite), David Robinson comme je l&rsquo;ai déjà mentionné, <a href="https://juliasilge.com/" target="_blank">Julia Silge</a> (Oui de l&rsquo;astronomie à StackOverflow) et <a href="https://www.linkedin.com/in/dominique-koua-4397a313" target="_blank">Dominique Koua</a> (Pour m&rsquo;avoir donné le sentiment d&rsquo;avoir de la valeur et de pouvoir faire de la bio-informatique.).</p>
+
+<p>Pour mes très chers Africains, je veux juste dire que vous pouvez tout faire, il suffit d&rsquo;y croire et de travailler autant que vous le pouvez et vous atteindrez vos objectifs.</p>
+
+<p>Je ne pense pas que j&rsquo;en ai fini. Le marketing n&rsquo;est qu&rsquo;une étape sur mon chemin. Enseigner la bio-informatique et la science des données, Commencer et terminer mon doctorat sont mes prochains objectifs. Bientôt, j&rsquo;y serai, crois-moi !</p>
+
+<p>Ne laissez pas vos rêves s&rsquo;envoler. Vous pouvez les atteindre !</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Comment s&#39;engager avec la communauté R</title>
+            <link>/fr/posts/2017/12/comment-sengager-avec-la-communaut%C3%A9-r/</link>
+            <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+            
+            <guid>/fr/posts/2017/12/comment-sengager-avec-la-communaut%C3%A9-r/</guid>
+            <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
+&amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
+Hadley Wickham and Garret Grolemund in R for Data Science.
+ Quand j&amp;rsquo;ai entendu parler pour la première fois de R, j&amp;rsquo;étais étudiant en Bsc en agronomie en Côte d&amp;rsquo;Ivoire. Mon professeur de statistique vient de me dire que R était génial comparé à d&amp;rsquo;autres logiciels statistiques et m&amp;rsquo;a donné le lien vers le site du réseau d&amp;rsquo;archives R complet.</description>
+            <content type="html"><![CDATA[
+
+<blockquote>
+<p>&ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&rdquo;</p>
+
+<p>&ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&rdquo;&mdash;<br />
+Hadley Wickham and Garret Grolemund in R for Data Science.</p>
+</blockquote>
+
+<p>Quand j&rsquo;ai entendu parler pour la première fois de R, j&rsquo;étais étudiant en Bsc en agronomie en Côte d&rsquo;Ivoire. Mon professeur de statistique vient de me dire que R était génial comparé à d&rsquo;autres logiciels statistiques et m&rsquo;a donné le lien vers le site du réseau d&rsquo;archives R complet. Personne n&rsquo;a pu m&rsquo;aider à apprendre ou à en savoir plus sur R en Côte d&rsquo;Ivoire grâce à mes tentatives de trouver des gens pour m&rsquo;aider..</p>
+
+<p>Un jour, en faisant des recherches sur Internet, en passant de liens en liens, j&rsquo;ai trouvé des R-bloggers et des Rstudio. Après cela a trouvé Hadley Wickham Wickham et commencer à s&rsquo;intéresser vraiment sur l&rsquo;apprentissage R.</p>
+
+<p>Ce que j&rsquo;ai trouvé de mieux dans R, c&rsquo;est que R est aussi l&rsquo;une des meilleures communautés à tous points de vue qui pourraient aider un début de croissance dans R. Tout ce que je sais sur R aujourd&rsquo;hui vient des messages, liens, aides, conseils et encouragements de la communauté R.</p>
+
+<p>Pour rester à jour avec la communauté R, j&rsquo;ai surtout utilisé Twiiter. Twitter est l&rsquo;un des outils clés utilisés par la communauté R, et nous pouvons ajouter des blogs et des sites Web, mais je recommande clairement de commencerR à avoir un compte <a href="https://twitter.com" target="_blank">twitter</a> et de vous impliquer dans la communauté R.</p>
+
+<p>Après cette première étape, si vous prévoyez faire carrière dans les sciences des données ou dans des domaines connexes, vous devriez <a href="http://varianceexplained.org/r/start-blog/" target="_blank">commencez un blog</a> et visitez régulièrement d&rsquo;autres blogs et sites web.</p>
+
+<p>Ci-dessous, j&rsquo;ai mis une liste de personnes, de blogs et de sites Web qui m&rsquo;aident et continuent d&rsquo;être une excellente source d&rsquo;informations pour rester à jour. Cette liste reflète mon propre point de vue et manque sûrement de liens importants que vous pensez probablement comme importants (laissez un commentaire ci-dessous) et n&rsquo;oubliez pas que cette liste est juste <em>une liste de début</em>.</p>
+
+<p>Bien que ce billet vise à aider les débutants, il pourrait aussi être d&rsquo;une grande utilité pour les utilisateurs plus expérimentés. Ce billet sera mis à jour au moins une fois par an pour aider les gens.</p>
+
+<h3 id="les-hashtags">Les hashtags</h3>
+
+<p>De facon courante, sur Twitter vous devez utiliser les hashtags,  <code>#rstats</code>, <code>#R</code> or <code>#rstudio</code> pour pouvoir trouver ce qui se trame autour de R. Vous pouvez aussi apprendre à utiliser le package <a href="https://cran.r-project.org/" target="_blank">rtweet</a>.</p>
+
+<h3 id="les-personnes-à-suivre-dans-la-communauté">Les personnes à suivre dans la communauté</h3>
+
+<ul>
+<li>Hadley Wickham <a href="https://twitter.com/hadleywickham" target="_blank">@hadleywickham</a><br /></li>
+<li>Yihui Xie <a href="https://twitter.com/xieyihui" target="_blank">@xieyihui</a><br /></li>
+<li>David Robinson <a href="https://twitter.com/drob" target="_blank">@drob</a><br /></li>
+<li>Jenny Bryan <a href="https://twitter.com/JennyBryan" target="_blank">@JennyBryan</a><br /></li>
+<li>Julia Silge <a href="https://twitter.com/juliasilge" target="_blank">@juliasilge</a><br /></li>
+<li>Karl Browman <a href="https://twitter.com/kwbroman" target="_blank">@kwbroman</a><br /></li>
+<li>Hilary Parker <a href="https://twitter.com/hspter" target="_blank">@hpster</a><br /></li>
+<li>Garret Grolemund <a href="https://twitter.com/@StatGarrett" target="_blank">@StatGarrett</a><br /></li>
+<li>Joe Cheng <a href="https://twitter.com/@jcheng" target="_blank">@jcheng</a><br /></li>
+<li>Charlotte Wickham <a href="https://twitter.com/CVWickham" target="_blank">@CVWickham</a><br /></li>
+<li>Jeroen Ooms <a href="https://twitter.com/opencpu" target="_blank">@opencpu</a><br /></li>
+<li>Jim Hester <a href="https://twitter.com/jimhester_" target="_blank">@jimhester_</a><br /></li>
+<li>Mara Averick <a href="https://twitter.com/dataandme" target="_blank">@dataandme</a><br /></li>
+<li>Roger D. Peng <a href="https://twitter.com/rdpeng" target="_blank">@rdpeng</a><br /></li>
+<li>Jeff Leek <a href="https://twitter.com/jtleek" target="_blank">@jtleek</a><br /></li>
+<li>Karthik Ram <a href="https://twitter.com/_inundata" target="_blank">@_inundata</a><br /></li>
+<li>Amber Thomas <a href="https://twitter.com/ProQuesAsker" target="_blank">@ProQuesAsker</a></li>
+<li>Alison Hill <a href="https://twitter.com/apreshill" target="_blank">@apreshill</a><br /></li>
+</ul>
+
+<h3 id="les-groupes-à-suivre">Les groupes à suivre</h3>
+
+<ul>
+<li>Rstudio <a href="https://twitter.com/rstudio" target="_blank">@rstudio</a><br /></li>
+<li>R-bloggers <a href="https://twitter.com/Rbloggers" target="_blank">@Rbloggers</a><br /></li>
+<li>Bioconductor (for people working in bioinformatics or life science like me) <a href="https://twitter.com/Bioconductor" target="_blank">@Bioconductor</a><br /></li>
+</ul>
+
+<h3 id="les-sites-à-visiter-régulierement">Les sites à visiter régulierement</h3>
+
+<ul>
+<li><a href="https://rstudio.com" target="_blank">Rstudio</a><br /></li>
+<li><a href="https://cran.r-project.com" target="_blank">Cran</a><br /></li>
+<li><a href="https://r-bloggers.org" target="_blank">R bloggers</a><br /></li>
+</ul>
+
+<h3 id="blogs">Blogs</h3>
+
+<p>Je vous recommande vivement de jeter un coup d&rsquo;oeil sur les pages de :</p>
+
+<ul>
+<li><a href="https://hadley.nz" target="_blank">Hadley Wickham</a></li>
+<li><a href="https://yihui.name/" target="_blank">Yihui Xie</a><br /></li>
+<li><a href="http://varianceexplained.org/" target="_blank">David Robinson</a><br /></li>
+<li><a href="https://hilaryparker.com/" target="_blank">Hilary Parker</a><br /></li>
+<li><a href="https://juliasilge.com/" target="_blank">Julia Silge</a><br /></li>
+<li><a href="http://www.masalmon.eu/" target="_blank">Maëlle Salmon</a><br /></li>
+<li><a href="https://blog.rstudio.org/" target="_blank">R Studio blog</a><br /></li>
+<li><a href="https://alison.rbind.io" target="_blank">Alison Hill</a><br /></li>
+<li><a href="https://amber.rbind.io" target="_blank">Amber Thomas</a><br /></li>
+<li><a href="https://simplystatistics.org/" target="_blank">Simply statistics</a><br /></li>
+</ul>
+
+<p>Consultez aussi les pages web d&rsquo;autres R master. Vous pouvez généralement trouver des liens vers leurs sites Web sur la page de profil de leurs comptes Twitter.</p>
+
+<h3 id="livres-en-ligne">Livres en ligne</h3>
+
+<ul>
+<li><a href="http://r4ds.had.co.nz/" target="_blank">R for data science</a> par Hadley Wickham et Garret Grolemund.</li>
+<li><a href="https://bookdown.org/yihui/blogdown/" target="_blank">Blogdown: creating websites with R Markdown</a> par Yihui Xie, Amber Thomas et Alison Presmanes Hill.<br /></li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>L&rsquo;un des avantages d&rsquo;être engagé avec la communauté est d&rsquo;avoir des liens utiles qui viennent avec les tweets. Je pense que vous ne pouvez pas grandir correctement dans votre connaisssance de R sans être engagé avec la communauté. Ce petit article sert donc de conseil si vous avez l&rsquo;intention d&rsquo;apprendre, de vous impliquer ou d&rsquo;en savoir plus sur R. Je peux dire que si vous voulez savoir ce qui se passe dans la communauté R vous n&rsquo;avez qu&rsquo;à ouvrir votre page Twitter et lire votre fil.</p>
+]]></content>
         </item>
         
     </channel>

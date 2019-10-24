@@ -1,4 +1,4 @@
-baseurl                = "https://aebou.rbind.io/"
+baseURL = "https://aebou.rbind.io/"
 title   = "Anicet Ebou"
 
 DefaultContentLanguage = "en"
@@ -11,7 +11,7 @@ PygmentsStyle = "monokai"
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
+googleAnalytics = "UA-111109114-1"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
@@ -45,10 +45,10 @@ disableHugoGeneratorInject = false
 
 [taxonomies]
   tag      = "tags"
-  category = ""
+  category = "categories"
 
 [params]
-  dateform        = "2 Jan, 2006"
+  dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
@@ -72,7 +72,7 @@ disableHugoGeneratorInject = false
   justifyContent = false  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  # contentTypeName = "blog"
   # Default theme "light" or "dark"
   defaultTheme = "light"
   themeColor = "#252627"
@@ -86,7 +86,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/"
+    url  = "https://twitter.com/anicetebou"
 
   [[params.social]]
     name = "email"
@@ -102,12 +102,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Biology & Data"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
   [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "Biology & Data"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -120,6 +120,5 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
-
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/fr/posts/1/01/</loc>
+  </url>
+  
+  <url>
     <loc>/fr/</loc>
     <xhtml:link
                 rel="alternate"
@@ -17,16 +21,30 @@
   </url>
   
   <url>
-    <loc>/fr/post/</loc>
+    <loc>/fr/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/post/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="/fr/post/"
+                href="/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/posts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/"
                 />
   </url>
   

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blogs on Biology informaticized</title>
+    <title>blogs on Anicet Ebou</title>
     <link>/tags/blogs/</link>
-    <description>Recent content in blogs on Biology informaticized</description>
+    <description>Recent content in blogs on Anicet Ebou</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2019 Anicet Ebou</copyright>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 19 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>How to follow and engage with the R community</title>
-      <link>/post/how_to_follow_and_engage_with_the_r_community/</link>
+      <link>/posts/2017/12/how-to-follow-and-engage-with-the-r-community/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/how_to_follow_and_engage_with_the_r_community/</guid>
+      <guid>/posts/2017/12/how-to-follow-and-engage-with-the-r-community/</guid>
       <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
 &amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
 Hadley Wickham and Garret Grolemund in R for Data Science.

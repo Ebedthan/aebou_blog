@@ -1,7 +1,6 @@
 +++
 title = 'How I Found Myself doing Data science in marketing'
 date = 2018-06-17T17:37:23Z
-draft = true
 meta_img = ""
 tags = ["Data Science", " Marketing"]
 description = "From genomic to marketing data"

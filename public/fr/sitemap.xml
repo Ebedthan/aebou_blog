@@ -3,6 +3,96 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/fr/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/posts/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/posts/2019/10/pourquoi-devons-nous-enseigner/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2019/10/why-do-we-need-to-teach/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2019/10/pourquoi-devons-nous-enseigner/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/r/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/r/"
+                />
+  </url>
+  
+  <url>
+    <loc>/fr/categories/teaching/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/teaching/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/teaching/"
+                />
+  </url>
+  
+  <url>
     <loc>/fr/about/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -14,21 +104,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>/fr/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/"
                 />
   </url>
   
@@ -74,21 +149,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/data-science/"
-                />
-  </url>
-  
-  <url>
-    <loc>/fr/posts/</loc>
-    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/posts/"
                 />
   </url>
   
@@ -164,20 +224,6 @@
                 rel="alternate"
                 hreflang="fr"
                 href="/fr/tags/twitter/"
-                />
-  </url>
-  
-  <url>
-    <loc>/fr/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
                 />
   </url>
   

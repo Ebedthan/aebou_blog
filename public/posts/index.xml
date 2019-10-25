@@ -5,8 +5,44 @@
         <description>Recent content in Posts on Anicet Ebou</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Sun, 17 Jun 2018 17:37:23 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Why do we need to teach</title>
+            <link>/posts/2019/10/why-do-we-need-to-teach/</link>
+            <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/10/why-do-we-need-to-teach/</guid>
+            <description>Context It came to my mind to write this short post to put emphasis on the importance for people to share it. It became a need for me to ouline this point because of the reality that best mind are not always willing to share knowledge, sometimes because they don&amp;rsquo;t see the importance of teachnig. And this fact limit our true power and evolution as a community.
+Why It&amp;rsquo;s important to teach because teaching prove to yourself that you master the subject (at a certain level at least).</description>
+            <content type="html"><![CDATA[
+
+<h2 id="context">Context</h2>
+
+<p>It came to my mind to write this short post to put emphasis on the importance for people to share it. It became a need for me to ouline this point because of the reality that best mind are not always willing to share knowledge, sometimes because they don&rsquo;t see the importance of teachnig. And this fact limit our true power and evolution as a community.</p>
+
+<h2 id="why">Why</h2>
+
+<p>It&rsquo;s important to teach because teaching prove to yourself that you master the subject (at a certain level at least). If you are not sharing your knowledge by teaching it&rsquo;s merely obvious that you&rsquo;re in lack of confidence or in lack of knowledge on the subject. And you should not.</p>
+
+<p>Secondly, we need to teach because to teach is to share and sharing is the best way to <strong>build</strong>. If we want to have strongest communities (like R community) or build a strong team we need to share and not be afraid to do so.</p>
+
+<p>Finally, i think that we need to teach because we can only master what we teach (and practice) not what we practice only. Mastery is reached by teaching and practice. Both are required.</p>
+
+<h2 id="how">How</h2>
+
+<p>The best way to teach is to begin a blog and be involved in the local community. A blog we let you overcome the fear and share your knowledge, even if their are not so technical. Being involved in the community will help you feel valuable and unlocked your skills and true potential inside you. You can begin where you are with as small you have.</p>
+
+<h2 id="what">What</h2>
+
+<ol>
+<li>Begin a blog and write a post</li>
+<li>Do you first presentation in your R user group</li>
+<li>Repeat 1 and 2</li>
+</ol>
+]]></content>
+        </item>
         
         <item>
             <title>How I Found Myself doing Data science in marketing</title>

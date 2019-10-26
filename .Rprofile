@@ -1,0 +1,1 @@
+options(blogdown.author = "Anicet Ebou", blogdown.subdir = "posts")

@@ -51,11 +51,11 @@ disableHugoGeneratorInject = false
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNumTime = "2006-01-02 15:04"
 
   # Metadata mostly used in document's head
   description = "Anicet Ebou's Website"
-  keywords = ""
+  keywords = "R, Bioinformatics, Data Science, Personal"
   images = [""]
 
   homeSubtitle = "Biology & Data"
@@ -81,7 +81,7 @@ disableHugoGeneratorInject = false
     logoText     = "$ cd /home/"
     logoHomeLink = "/"
     # Set to a valid CSS color to change the cursor in the logo.
-    # logoColor    = "#67a2c9"
+    logoColor    = "#63c5da"
 
   # Social icons
   [[params.social]]
@@ -90,7 +90,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "email"
-    url  = "mailto:anicet.ebou@gmail.com"
+    url  = "anicet.ebou@gmail.com"
 
   [[params.social]]
     name = "github"

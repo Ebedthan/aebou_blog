@@ -94,7 +94,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/ebedthan"
+    url  = "https://github.com/Ebedthan"
 
   [[params.social]]
     name = "linkedin"
@@ -120,5 +120,13 @@ disableHugoGeneratorInject = false
     identifier = "posts"
     name       = "Posts"
     url        = "posts/"
+  [[menu.main]]
+    identifier = "talks"
+    name       = "Talks"
+    url        = "talks/"
+  [[menu.main]]
+    identifier = "tutorials"
+    name       = "Tutorials"
+    url        = "tutorials/"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

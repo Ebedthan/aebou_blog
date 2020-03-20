@@ -126,7 +126,7 @@ disableHugoGeneratorInject = false
     url        = "talks/"
   [[menu.main]]
     identifier = "tutorials"
-    name       = "Tutorials"
+    name       = "Tutorials"  
     url        = "tutorials/"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

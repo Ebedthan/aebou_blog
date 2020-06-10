@@ -19,6 +19,7 @@
             <content type="html"><![CDATA[
 
 
+<p><img src="/img/reticulated_python.png" style="width:50.0%" /></p>
 <p>I was late testing <a href="https://rstudio.github.io/reticulate/">Reticulate</a> and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.</p>
 <div id="the-possibility-to-execute-a-chunk-of-python-code-with-ctrl-enter-like-with-r" class="section level3">
 <h3>1. The possibility to execute a chunk of python code with Ctrl + enter like with R</h3>

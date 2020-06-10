@@ -2,7 +2,7 @@
 date: 2017-12-19
 slug: "How_to_follow_and_engage_with_the_R_community"
 title: "Comment s'engager avec la communauté R"
-tags: [rstats, blogs, twitter]
+tags: ["R"]
 ---
 
 > "R is not just a programming language, but it is also an interactive environment for doing data science." 

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Anicet Ebou</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reticulate</title>
+      <link>/tags/reticulate/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reticulate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RStudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstudio/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>microbes</title>
@@ -30,20 +57,11 @@
     </item>
     
     <item>
-      <title> Marketing</title>
-      <link>/tags/marketing/</link>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
       <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
       
-      <guid>/tags/marketing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
-      
-      <guid>/tags/data-science/</guid>
+      <guid>/tags/personal/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@
 title = 'Comment je me suis retrouvé entrain de faire la Data Science dans le marketing'
 date = 2018-06-17T17:37:23Z
 meta_img = ""
-tags = ["Data Science", " Marketing"]
+tags = ["Personal"]
 description = "Des données génomiques aux données marketing"
 hacker_news_id = ""
 lobsters_id = ""

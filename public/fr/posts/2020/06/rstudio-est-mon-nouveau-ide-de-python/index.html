@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Anicet Ebou">
+<meta name="description" content="J’ai testé tardivement Reticulate et comment il facilite l’utilisation de python dans RStudio, je n’ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m’a stupéfié. J’ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.
+1. La possibilité d’exécuter un bout de code python avec Ctrl &#43; entrée comme avec R Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl &#43; Entrée." />
+<meta name="keywords" content="R, Bioinformatics, Data Science, Personal" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/fr/posts/2020/06/rstudio-est-mon-nouveau-ide-de-python/" />
+
+
+    <title>
+        
+            RStudio est mon nouveau IDE de Python :: Anicet Ebou  — Biology &amp; Data
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.dede02da9537a98158079c023e83573e18127834838ef08172acce888341a797.css">
+
+
+
+
+
+
+<meta itemprop="name" content="RStudio est mon nouveau IDE de Python">
+<meta itemprop="description" content="J’ai testé tardivement Reticulate et comment il facilite l’utilisation de python dans RStudio, je n’ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m’a stupéfié. J’ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.
+1. La possibilité d’exécuter un bout de code python avec Ctrl &#43; entrée comme avec R Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl &#43; Entrée.">
+
+
+<meta itemprop="datePublished" content="2020-06-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-06-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="287">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="RStudio est mon nouveau IDE de Python"/>
+<meta name="twitter:description" content="J’ai testé tardivement Reticulate et comment il facilite l’utilisation de python dans RStudio, je n’ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m’a stupéfié. J’ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.
+1. La possibilité d’exécuter un bout de code python avec Ctrl &#43; entrée comme avec R Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl &#43; Entrée."/>
+
+
+
+
+
+
+
+    <meta property="article:published_time" content="2020-06-10 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/fr/about/">About</a></li><li><a href="/fr/posts/">Posts</a></li><li><a href="/fr/talks/">Talks</a></li><li><a href="/fr/tutorials/">Tutorials</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+                | Aussi disponible en
+                
+                    <a href="/posts/2020/06/rstudio-is-my-new-python-ide/"><span class="flag flag-icon flag-icon-gb flag-icon-squared"></span></a>
+                
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/fr/posts/2020/06/rstudio-est-mon-nouveau-ide-de-python/">RStudio est mon nouveau IDE de Python</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                
+
+
+<p>J’ai testé tardivement <a href="https://rstudio.github.io/reticulate/">Reticulate</a> et comment il facilite l’utilisation de python dans RStudio, je n’ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m’a stupéfié. J’ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.</p>
+<div id="la-possibilité-dexécuter-un-bout-de-code-python-avec-ctrl-entrée-comme-avec-r" class="section level3">
+<h3>1. La possibilité d’exécuter un bout de code python avec Ctrl + entrée comme avec R</h3>
+<p>Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl + Entrée.
+J’ai vraiment trouvé cela utile pour tester une petite partie du code tout en continuant à écrire. À ma connaissance, Rstudio a rendu cela vraiment facile à faire par rapport aux autres IDE.</p>
+<p>Et si vous tracez un graphique, il apparaît dans le panneau de tracé de RStudio!</p>
+<p>Exécutez ce code dans un chunck en python ou un script Python :</p>
+<pre class="python"><code>from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()</code></pre>
+<p>Vous obtiendrez ce graphique:</p>
+<p><img src="/posts/2020-06-10-rstudio-is-my-new-python-ide.fr_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="un-environnement-global-actif-aussi-pour-python" class="section level3">
+<h3>2. Un environnement global actif aussi pour Python</h3>
+<p>En écrivant du code python ayant des variables, elle apparaisent dans le panneau des variables présente dans l’environnement de travail. C’est plutôt cool. RStudio l’a activé pour le code R et (dans certaines conditions) pour le code Python. Essayez, vous allez adorer.</p>
+</div>
+<div id="accès-direct-aux-variables-de-python-dans-r" class="section level3">
+<h3>3. Accès direct aux variables de Python dans R</h3>
+<p>Si Rstudio fournit une liste de variables dans votre environnement lorsque vous travaillez avec du code Python, il vous permet également, par exemple, de visualiser le tableau de données par exemple que vous venez d’importer dans le Viewer de RStudio.</p>
+<p>Avez-vous d’autres astuces à me faire découvrir ? Veuillez laisser un commentaire ou m’envoyer un <a href="mailto:anicet.ebou@gmail.com">mail</a>. Je serai très heureux d’avoir de pouvoir apprendre de vous.</p>
+</div>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>287 Mots</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-06-10 00:00</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/fr/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/">
+                                <span class="button__text">R is overtaking Python in microbes analysis</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+            <div id="comments" class="thin">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "aebou" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="/">Anicet Ebou</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span> <a href="/fr/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-111109114-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+    </body>
+</html>

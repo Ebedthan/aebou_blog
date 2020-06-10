@@ -3,7 +3,7 @@ title: Why do we need to teach
 author: Anicet Ebou
 date: '2019-10-25'
 slug: why-do-we-need-to-teach
-categories: ["R", "Teaching"]
+categories: [R, Teaching]
 tags: []
 comments: no
 images: ~

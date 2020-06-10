@@ -55,8 +55,8 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   description = "Anicet Ebou's Website"
-  keywords = "R, Bioinformatics, Data Science, Personal"
-  images = [""]
+  keywords = "R blog, Bioinformatics blog, Personal blog"
+  #images = [""]
 
   homeSubtitle = "Biology & Data"
 
@@ -69,7 +69,7 @@ disableHugoGeneratorInject = false
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
+  justifyContent = true  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
   # contentTypeName = "blog"

@@ -2,7 +2,7 @@
 title = 'How I Found Myself doing Data science in marketing'
 date = 2018-06-17T17:37:23Z
 meta_img = ""
-tags = ["Data Science", " Marketing"]
+tags = ["Personal"]
 description = "From genomic to marketing data"
 hacker_news_id = ""
 lobsters_id = ""

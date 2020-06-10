@@ -1,0 +1,49 @@
+---
+title: RStudio est mon nouveau IDE préféré de Python
+author: Anicet Ebou
+date: '2020-06-10'
+slug: rstudio-is-my-new-python-ide
+categories: [R]
+tags: [Reticulate, RStudio, Python]
+toc: 
+images: ~
+---
+
+![](/img/reticulated_python.png){width=50%}
+ 
+ 
+J'ai testé tardivement [Reticulate](https://rstudio.github.io/reticulate/) et comment il facilite l'utilisation de python dans RStudio, je n'ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m'a stupéfié. J'ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.
+
+### 1. La possibilité d'exécuter un bout de code python avec Ctrl + entrée comme avec R
+
+Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl + Entrée.
+J'ai vraiment trouvé cela utile pour tester une petite partie du code tout en continuant à écrire. À ma connaissance, Rstudio a rendu cela vraiment facile à faire par rapport aux autres IDE.
+
+Et si vous tracez un graphique, il apparaît dans le panneau de tracé de RStudio!
+
+Exécutez ce code dans un chunck en python ou un script Python :
+
+```{python eval=FALSE}
+from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()
+```
+
+Vous obtiendrez ce graphique:
+
+```{python echo=FALSE}
+from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()
+```
+
+### 2. Un environnement global actif aussi pour Python
+
+En écrivant du code python ayant des variables, elle apparaisent dans le panneau des variables présente dans l'environnement de travail. C'est plutôt cool. RStudio l'a activé pour le code R et (dans certaines conditions) pour le code Python. Essayez, vous allez adorer.
+
+### 3. Accès direct aux variables de Python dans R
+
+Si Rstudio fournit une liste de variables dans votre environnement lorsque vous travaillez avec du code Python, il vous permet également, par exemple, de visualiser le tableau de données par exemple que vous venez d'importer dans le Viewer de RStudio.
+
+
+Avez-vous d'autres astuces à me faire découvrir ? Veuillez laisser un commentaire ou m'envoyer un [mail](mailto:anicet.ebou@gmail.com). Je serai très heureux d'avoir de pouvoir apprendre de vous.

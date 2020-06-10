@@ -1,0 +1,36 @@
+---
+title: RStudio est mon nouveau IDE préféré de Python
+author: Anicet Ebou
+date: '2020-06-10'
+slug: rstudio-is-my-new-python-ide
+categories: [R]
+tags: [Reticulate, RStudio, Python]
+toc: 
+images: ~
+---
+
+
+
+<p><img src="/img/reticulated_python.png" style="width:50.0%" /></p>
+<p>J’ai testé tardivement <a href="https://rstudio.github.io/reticulate/">Reticulate</a> et comment il facilite l’utilisation de python dans RStudio, je n’ai cependant pas été déçu. Le fait que vous puissiez travailler en python sans problème dans Rstudio m’a stupéfié. J’ai trouvé quelques fonctionnalités de RStudio qui sont vraiment étonnantes. En voici la liste.</p>
+<div id="la-possibilité-dexécuter-un-bout-de-code-python-avec-ctrl-entrée-comme-avec-r" class="section level3">
+<h3>1. La possibilité d’exécuter un bout de code python avec Ctrl + entrée comme avec R</h3>
+<p>Comme pour du code R, lorsque vous avez un script Python, vous pouvez exécuter une partie du code en utilisant le raccourci RStudio Ctrl + Entrée.
+J’ai vraiment trouvé cela utile pour tester une petite partie du code tout en continuant à écrire. À ma connaissance, Rstudio a rendu cela vraiment facile à faire par rapport aux autres IDE.</p>
+<p>Et si vous tracez un graphique, il apparaît dans le panneau de tracé de RStudio!</p>
+<p>Exécutez ce code dans un chunck en python ou un script Python :</p>
+<pre class="python"><code>from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()</code></pre>
+<p>Vous obtiendrez ce graphique:</p>
+<p><img src="/posts/2020-06-10-rstudio-is-my-new-python-ide.fr_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="un-environnement-global-actif-aussi-pour-python" class="section level3">
+<h3>2. Un environnement global actif aussi pour Python</h3>
+<p>En écrivant du code python ayant des variables, elle apparaisent dans le panneau des variables présente dans l’environnement de travail. C’est plutôt cool. RStudio l’a activé pour le code R et (dans certaines conditions) pour le code Python. Essayez, vous allez adorer.</p>
+</div>
+<div id="accès-direct-aux-variables-de-python-dans-r" class="section level3">
+<h3>3. Accès direct aux variables de Python dans R</h3>
+<p>Si Rstudio fournit une liste de variables dans votre environnement lorsque vous travaillez avec du code Python, il vous permet également, par exemple, de visualiser le tableau de données par exemple que vous venez d’importer dans le Viewer de RStudio.</p>
+<p>Avez-vous d’autres astuces à me faire découvrir ? Veuillez laisser un commentaire ou m’envoyer un <a href="mailto:anicet.ebou@gmail.com">mail</a>. Je serai très heureux d’avoir de pouvoir apprendre de vous.</p>
+</div>

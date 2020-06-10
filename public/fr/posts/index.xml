@@ -5,8 +5,33 @@
         <description>Recent content in Posts on Anicet Ebou</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
         <atom:link href="/fr/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>R is overtaking Python in microbes analysis</title>
+            <link>/fr/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</link>
+            <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/fr/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</guid>
+            <description>L&amp;rsquo;analyse microbienne est un bon domaine d&amp;rsquo;analyse des données. Le fait que les microbes sont omniprésents dans nos environnements et que le séquençage à haut débit provoque un déluge de données en est la cause principale.
+Les étapes cruciales de l&amp;rsquo;analyse microbienne sont l&amp;rsquo;élimination des amorces, le démultiplexage, le filtrage et l&amp;rsquo;ajustement des séquences, lqa construction de modèles d&amp;rsquo;erreur, le regroupement des séquences et la classification taxonomique.
+Parmi les étapes ci-dessus, le regroupement des séquences et les affectations taxonomiques semblent être les plus difficiles.</description>
+            <content type="html"><![CDATA[<p>L&rsquo;analyse microbienne est un bon domaine d&rsquo;analyse des données. Le fait que les microbes sont omniprésents dans nos environnements et que le séquençage à haut débit provoque un déluge de données en est la cause principale.</p>
+
+<p>Les étapes cruciales de l&rsquo;analyse microbienne sont l&rsquo;élimination des amorces, le démultiplexage, le filtrage et l&rsquo;ajustement des séquences, lqa construction de modèles d&rsquo;erreur, le regroupement des séquences et la classification taxonomique.</p>
+
+<p>Parmi les étapes ci-dessus, le regroupement des séquences et les affectations taxonomiques semblent être les plus difficiles. La clusterisation des séquences, vise la réduction des erreurs inhérentes à la PCR et au séquençage de l&rsquo;ADN.
+Traditionnellement, les séquences étaient regroupées en unités taxonomiques opérationnelles (OTU) suivant un seuil de 97%. Mais comme le soulignent des études récentes (<a href="https://www.ncbi.nlm.nih.gov/pubmed/27214047" target="_blank">Callahan et al., 2016</a>,<a href="https://msystems.asm.org/content/2/2/e00191-16" target="_blank">Amir et al., 2016</a>,<a href="https://www.ncbi.nlm.nih.gov/pubmed/29506021" target="_blank">Edgar RC, 2018</a>), l&rsquo;olygotypage est maintenant le bon moyen de regrouper les séquences d&rsquo;amplicons en utilisant un seuil de mise à jour des variantes des séquences d&rsquo;amplicon (ASV).
+Et pour ce faire, les deux algorithmes majeurs ont été écrits en R (dada2) et Python (deblur). Mais Dada2 semble être le plus utilisé.</p>
+
+<p>Pour la classification taxonomique, le<a href="https://rdp.cme.msu.edu/classifier/classifier.jsp" target="_blank">classificateur RDP</a> qui est toujours largement utilisé est la référence pour la classification et il a sa propre implémentation dans R (fonction assignTaxonomy dans le package dada2). <a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5" target="_blank">IdTaxa</a> qui rapporte une meilleure précision que tous les classificateurs taxonomiques précédents, est écrit en R et fait partie du paquet R DECIPHER.</p>
+
+<p>C&rsquo;est comme si quand vous voulez faire l&rsquo;analyse de données biologiques, vous devez obligatoirement connaître le langage R.</p>
+
+<p>Le leadership de R dans l&rsquo;analyse microbienne révèle la capacité de R à s&rsquo;adapter à la situation en place et c&rsquo;est un langage étonnnament adéquart pour les données biologiques.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Pourquoi devons nous enseigner</title>

@@ -6,10 +6,53 @@
     <description>Recent content on Anicet Ebou</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>RStudio is my new Python IDE</title>
+      <link>/posts/2020/06/rstudio-is-my-new-python-ide/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020/06/rstudio-is-my-new-python-ide/</guid>
+      <description>I was late testing Reticulate and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
+1. The possibility to execute a chunk of python code with Ctrl + enter like with R As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>My slides are mostly generated from R Markdown. You can access the .Rmd files by replacing the .html with .Rmd in the address bar of your browser. You can also by the same trick access the .pdf files.
+ Anicet Ebou, 2020, Data Visualization and Transformation in R, a talk at satRday Abidjan 2020 (slides).
+ Anicet Ebou, 2020, Data Analysis with R:
+ Akwaba, slides. Les outils, slides. La visualisation des données, slides.</description>
+    </item>
+    
+    <item>
+      <title>Tutorials</title>
+      <link>/tutorials/</link>
+      <pubDate>Mon, 03 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/</guid>
+      <description> You will find tutorials on various subject around statistics, bioinformatics and R.
+Tutoriels en francais  Anicet Ebou, 2020, Importer ces données dans R (slides).  </description>
+    </item>
+    
+    <item>
+      <title>R is overtaking Python in microbes analysis</title>
+      <link>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</guid>
+      <description>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.</description>
+    </item>
     
     <item>
       <title>Why do we need to teach</title>
@@ -27,8 +70,7 @@ Why It&amp;rsquo;s important to teach because teaching prove to yourself that yo
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/about/</guid>
-      <description>I&amp;rsquo;m African. I believe that proper use of technology can dramatically enhances daily lives of manies around us especially in Africa. In Africa, simple things elsewhere are often hard to implements locally. Everything seems hard to do because of many issues.
-But Africa is the youngest continent and therefore is full of purpose and it will be for the next 10 years also. As a young African, I have found my right spot at a cross of many roads.</description>
+      <description>I&amp;rsquo;m a bioinformatician engineer. I&amp;rsquo;m doing a thesis in bioinformatics at the Doctoral school, National Polytechnic Institute of Yamoussoukro (Ivory Coast) advised by Dominique Koua. I have developped some R packages, such as afrods and tidygapminder. I begun Abidjan R users in 2016, and the community is growing rapidly. I initiated the satRday Abidjan conference in 2020. I love toxins (like spider toxins), pretty perl codes and coffee. I hate slow computer or connections.</description>
     </item>
     
     <item>
@@ -52,15 +94,6 @@ How do you did it? Why are you know working in marketings ? Why are you not as y
 &amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;rdquo;&amp;mdash;
 Hadley Wickham and Garret Grolemund in R for Data Science.
  When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/post/2019-10-25-why-do-we-need-to-teach/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019-10-25-why-do-we-need-to-teach/</guid>
-      <description>Why do we need to teach /*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */ !function(a,b){&#34;object&#34;==typeof module&amp;&amp;&#34;object&#34;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&#34;jQuery requires a window with a document&#34;);return b(a)}:b(a)}(&#34;undefined&#34;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&#34;1.11.3&#34;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:&#34;&#34;,length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0a?b:0);return this.pushStack(c=0&amp;&amp;bc?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(&#34;boolean&#34;==typeof g&amp;&amp;(j=g,g=arguments[h]||{},h++),&#34;object&#34;==typeof g||m.isFunction(g)||(g={}),h===i&amp;&amp;(g=this,h--);ih;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&amp;&amp;(j&amp;&amp;c&amp;&amp;(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&amp;&amp;m.isArray(a)?a:[]):f=a&amp;&amp;m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&amp;&amp;(g[d]=c));return g},m.extend({expando:&#34;jQuery&#34;+(l+Math.random()).replace(/\D/g,&#34;&#34;),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return&#34;function&#34;===m.type(a)},isArray:Array.isArray||function(a){return&#34;array&#34;===m.type(a)},isWindow:function(a){return null!=a&amp;&amp;a==a.window},isNumeric:function(a){return!m.isArray(a)&amp;&amp;a-parseFloat(a)+1=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||&#34;object&#34;!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&amp;&amp;!j.call(a,&#34;constructor&#34;)&amp;&amp;!j.call(a.constructor.prototype,&#34;isPrototypeOf&#34;))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.</description>
     </item>
     
   </channel>

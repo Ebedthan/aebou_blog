@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microbes on Anicet Ebou</title>
+    <link>/tags/microbes/</link>
+    <description>Recent content in microbes on Anicet Ebou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/microbes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R is overtaking Python in microbes analysis</title>
+      <link>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</guid>
+      <description>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.</description>
+    </item>
+    
+  </channel>
+</rss>

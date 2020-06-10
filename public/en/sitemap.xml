@@ -4,7 +4,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -18,23 +18,8 @@
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/categories/"
-                />
-  </url>
-  
-  <url>
     <loc>/posts/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -48,8 +33,53 @@
   </url>
   
   <url>
+    <loc>/posts/2020/06/rstudio-is-my-new-python-ide/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talks/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tutorials/</loc>
+    <lastmod>2020-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/microbes/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/microbes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/microbes/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/r/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -59,6 +89,51 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/r/"
+                />
+  </url>
+  
+  <url>
+    <loc>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/rstats/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/rstats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/rstats/"
+                />
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/tags/"
                 />
   </url>
   
@@ -153,21 +228,6 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-06-17T17:37:23+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>/tags/blogs/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -198,21 +258,6 @@
   </url>
   
   <url>
-    <loc>/tags/rstats/</loc>
-    <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/rstats/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/tags/rstats/"
-                />
-  </url>
-  
-  <url>
     <loc>/tags/twitter/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -225,15 +270,6 @@
                 hreflang="en"
                 href="/tags/twitter/"
                 />
-  </url>
-  
-  <url>
-    <loc>/post/2019-10-25-why-do-we-need-to-teach/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
   </url>
   
 </urlset>

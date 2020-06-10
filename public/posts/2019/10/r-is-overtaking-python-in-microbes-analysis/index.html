@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="Anicet Ebou">
+<meta name="description" content="Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors." />
+<meta name="keywords" content="R, Bioinformatics, Data Science, Personal, microbes, rstats" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#252627" />
+<link rel="canonical" href="/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/" />
+
+
+    <title>
+        
+            R is overtaking Python in microbes analysis :: Anicet Ebou  — Biology &amp; Data
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.dede02da9537a98158079c023e83573e18127834838ef08172acce888341a797.css">
+
+
+
+
+
+
+<meta itemprop="name" content="R is overtaking Python in microbes analysis">
+<meta itemprop="description" content="Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.">
+
+
+<meta itemprop="datePublished" content="2019-10-26T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-10-26T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="252">
+
+
+
+<meta itemprop="keywords" content="microbes,rstats," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="R is overtaking Python in microbes analysis"/>
+<meta name="twitter:description" content="Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors."/>
+
+
+
+
+
+    <meta property="article:section" content="R" />
+
+
+
+    <meta property="article:published_time" content="2019-10-26 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/talks/">Talks</a></li><li><a href="/tutorials/">Tutorials</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+                | Also available in
+                
+                    <a href="/fr/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/"><span class="flag flag-icon flag-icon-fr flag-icon-squared"></span></a>
+                
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/">R is overtaking Python in microbes analysis</a>
+            </h1>
+
+            
+
+            <div class="post-content">
+                <p>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.</p>
+
+<p>Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.</p>
+
+<p>Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.
+Traditionaly, sequences were clustered in operational taxonomic unit (OTUs) following a 97% threshold. But as recent studies ( <a href="https://www.ncbi.nlm.nih.gov/pubmed/27214047" target="_blank">Callahan et al., 2016</a>, <a href="https://msystems.asm.org/content/2/2/e00191-16" target="_blank">Amir et al., 2016</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/29506021" target="_blank">Edgar RC, 2018</a>) outline it, olygotyping is now the proper way to cluster amplicon sequences using an update threshold into amplicon sequences variants (ASVs).
+And to do it the two major algorithms has been written in R (dada2) and Python (deblur). But Dada2 seems to be the most used.</p>
+
+<p>For taxonomic assignment, the <a href="https://rdp.cme.msu.edu/classifier/classifier.jsp" target="_blank">RDP classifier</a> which is always widely used is like the reference for classifying and it has it own implementation in R (assignTaxonomy function in dada2 package). <a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5" target="_blank">IdTaxa</a> that reports a better accuracy than all previous taxonomic classifier, is written in R and part of the DECIPHER package.</p>
+
+<p>It&rsquo;s like when you want to do data analysis of biological data you are required to know the R language.</p>
+
+<p>The leadership of R in microbial analysis reveal the great power of adaptation of R and it is an amazing language for manipulating biological data.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/microbes">microbes</a></span><span class="tag"><a href="/tags/rstats">rstats</a></span>
+                </p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>252 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-10-26 00:00</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/posts/2020/06/rstudio-is-my-new-python-ide/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">RStudio is my new Python IDE</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/posts/2019/10/why-do-we-need-to-teach/">
+                                <span class="button__text">Why do we need to teach</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+            <div id="comments" class="thin">
+                <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "aebou" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+                <span><a href="/">Anicet Ebou</a></span>
+            
+            
+                <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+            
+            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-111109114-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+
+
+    </body>
+</html>

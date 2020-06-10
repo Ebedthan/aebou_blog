@@ -5,8 +5,69 @@
         <description>Recent content in Posts on Anicet Ebou</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>RStudio is my new Python IDE</title>
+            <link>/posts/2020/06/rstudio-is-my-new-python-ide/</link>
+            <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2020/06/rstudio-is-my-new-python-ide/</guid>
+            <description>I was late testing Reticulate and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
+1. The possibility to execute a chunk of python code with Ctrl + enter like with R As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.</description>
+            <content type="html"><![CDATA[
+
+
+<p>I was late testing <a href="https://rstudio.github.io/reticulate/">Reticulate</a> and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.</p>
+<div id="the-possibility-to-execute-a-chunk-of-python-code-with-ctrl-enter-like-with-r" class="section level3">
+<h3>1. The possibility to execute a chunk of python code with Ctrl + enter like with R</h3>
+<p>As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.
+I’ve really found it useful for testing a small part of the code while continuing to write. To the best of my knowledge Rstudio made this really easy to do compared to other IDE.</p>
+<p>And if you are plotting a graph it appears in the plot pane in RStudio.</p>
+<p>Executing this code in a python chunck or a Python script:</p>
+<pre class="python"><code>from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()</code></pre>
+<p>You will get this plot:</p>
+<p><img src="/posts/2020-06-10-rstudio-is-my-new-python-ide.en_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="global-environment-active-also-for-python" class="section level3">
+<h3>2. Global environment active also for Python</h3>
+<p>While writing code having a list of variables currently in your working environment it’s pretty cool. RStudio has it enabled for R code and (in some conditions) for Python code. Check it out, you’ll love it.</p>
+</div>
+<div id="access-of-variables-from-python-in-r-directly" class="section level3">
+<h3>3. Access of variables from python in R directly</h3>
+<p>If Rstudio provides a list of variables in your environment when you are working with Python code, it also allows you to for example view the data frame you have just imported in the RStudio Viewer.</p>
+<p>Do you have other tips you have discovered? Please leave a comment or send me an <a href="mailto:anicet.ebou@gmail.com">email</a>. I will be very glad to hear from you.</p>
+</div>
+]]></content>
+        </item>
+        
+        <item>
+            <title>R is overtaking Python in microbes analysis</title>
+            <link>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</link>
+            <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/2019/10/r-is-overtaking-python-in-microbes-analysis/</guid>
+            <description>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.</description>
+            <content type="html"><![CDATA[<p>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.</p>
+
+<p>Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.</p>
+
+<p>Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.
+Traditionaly, sequences were clustered in operational taxonomic unit (OTUs) following a 97% threshold. But as recent studies ( <a href="https://www.ncbi.nlm.nih.gov/pubmed/27214047" target="_blank">Callahan et al., 2016</a>, <a href="https://msystems.asm.org/content/2/2/e00191-16" target="_blank">Amir et al., 2016</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/29506021" target="_blank">Edgar RC, 2018</a>) outline it, olygotyping is now the proper way to cluster amplicon sequences using an update threshold into amplicon sequences variants (ASVs).
+And to do it the two major algorithms has been written in R (dada2) and Python (deblur). But Dada2 seems to be the most used.</p>
+
+<p>For taxonomic assignment, the <a href="https://rdp.cme.msu.edu/classifier/classifier.jsp" target="_blank">RDP classifier</a> which is always widely used is like the reference for classifying and it has it own implementation in R (assignTaxonomy function in dada2 package). <a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5" target="_blank">IdTaxa</a> that reports a better accuracy than all previous taxonomic classifier, is written in R and part of the DECIPHER package.</p>
+
+<p>It&rsquo;s like when you want to do data analysis of biological data you are required to know the R language.</p>
+
+<p>The leadership of R in microbial analysis reveal the great power of adaptation of R and it is an amazing language for manipulating biological data.</p>
+]]></content>
+        </item>
         
         <item>
             <title>Why do we need to teach</title>

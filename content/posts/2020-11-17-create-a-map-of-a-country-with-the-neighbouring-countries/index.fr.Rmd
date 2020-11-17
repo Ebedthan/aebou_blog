@@ -1,0 +1,140 @@
+---
+title: Créer une carte d'un pays avec les pays voisins et une carte de l'Afrique en encart
+author: Anicet Ebou
+date: '2020-11-17'
+slug: create-a-map-of-a-country-with-the-neighbouring-countries
+categories: []
+tags: []
+images: ~
+---
+
+Dessiner la carte d'un pays avec des indications de villes, des échantillons sont maintenant des tâches courantes à effectuer avec R. Mais comment ajouter à une telle carte des pays voisins ? Nous y voilà.
+
+Nous allons dessiner une carte de la Côte d'Ivoire avec ses pays voisins.
+
+Commençons par charger les bibliothèques :
+
+```{r, message=FALSE, warning=FALSE}
+library(tmap)   # to draw the map
+library(tibble) # for sites table creation
+library(sf)
+library(maptools)
+library(rgeos)
+library(raster) # to download data
+```
+
+
+Ensuite, créons un tibble avec les coordonnées de nos emplacements :
+
+```{r}
+sites <- tribble(
+  ~id, ~ Sites, ~ lat, ~ long,
+  1, "Abengourou", 6.7146399, -3.5654096,
+  2, "Aboisso", 5.4675302, -3.2185867,
+  3, "Agboville", 5.9342509, -4.2500361,
+  4, "Azaguié", 5.6305067, -4.0907336,
+  5, "Dabou", 5.3242556,-4.4098582,
+  6, "Grand-Bassam", 5.2198516, -3.7821731,
+  7, "Tiassalé", 5.8985662, -4.8458078
+)
+```
+
+
+Les coordonnées que nous avons ajoutées doivent être converties en un objet sf pour pouvoir le dessiner. 
+
+```{r}
+sf_obj <- st_as_sf(sites, coords = c("long", "lat"), crs = 4326) # 4326: Geodetic coordinate system for World
+```
+
+
+Chargeons maintenant les données des pays :
+
+```{r}
+ivory_coast <- getData("GADM", country = "CIV", level = 1)
+guinea <- getData("GADM", country = "Guinea", level = 0)
+mali <- getData("GADM", country = "Mali", level = 0)
+burkina <- getData("GADM", country = "Burkina Faso", level = 0)
+ghana <- getData("GADM", country = "Ghana", level = 0)
+liberia <- getData("GADM", country = "Liberia", level = 0)
+```
+
+
+Dessinons notre carte:
+
+```{r, warning=FALSE}
+# building the map of Cote d'Ivoire
+tm_shape(ivory_coast) + # carte cote d'ivoire
+  tm_polygons(col = "#f2f0f0") + # ajouter les polygones
+  tm_shape(sf_obj) + 
+  tm_symbols(size = 1.5) +
+  tm_text("id") +
+  tm_layout(frame = FALSE) + # remove box around map
+  tm_shape(guinea) + tm_polygons(col = "white") + tm_text("NAME_0") +
+  tm_shape(mali) + tm_polygons(col = "white") + tm_text("NAME_0") +
+  tm_shape(burkina) + tm_polygons(col = "white") + tm_text("NAME_0") +
+  tm_shape(ghana) + tm_polygons(col = "white") + tm_text("NAME_0") +
+  tm_shape(liberia) + tm_polygons(col = "white") + tm_text("NAME_0")
+
+```
+
+Comme vous pouvez le constater, nos pays voisins ne sont pas vraiment visibles. Nous devons donc étendre la zone de délimitation de notre carte.
+
+```{r, warning=FALSE}
+# New bbox CI
+bbox_civ <- st_bbox(ivory_coast) # current bounding box
+
+xcrange <- bbox_civ$xmax - bbox_civ$xmin # range of x values
+ycrange <- bbox_civ$ymax - bbox_civ$ymin # range of y values
+
+bbox_civ[1] <- bbox_civ[1] - (0.35 * xcrange) # xmin - left
+bbox_civ[3] <- bbox_civ[3] + (0.35 * xcrange) # xmax - right
+bbox_civ[2] <- bbox_civ[2] - (0.1 * ycrange) # ymin - bottom
+bbox_civ[4] <- bbox_civ[4] + (0.2 * ycrange) # ymax - top
+
+
+bbox_civ <- bbox_civ %>%
+  st_as_sfc()
+```
+
+Améliorons maintenant notre carte précédente :
+
+```{r, warning=FALSE}
+civmap <- tm_shape(ivory_coast, bbox = bbox_civ) + # carte cote d'ivoire
+  tm_polygons(col = "#f2f0f0") + # ajouter les polygones
+  tm_shape(sf_obj) + 
+  tm_symbols(size = 1.5) +
+  tm_text("id") +
+  tm_scale_bar(position = c("left", "bottom")) +
+  tm_layout(frame = FALSE) + # remove box around map
+  tm_compass(position = c("right", "top")) +
+  tm_shape(guinea) + tm_polygons(col = "white") + tm_text("NAME_0", xmod = 5, ymod = -2) +
+  tm_shape(mali) + tm_polygons(col = "white") + tm_text("NAME_0", xmod = -10, ymod = -18) +
+  tm_shape(burkina) + tm_polygons(col = "white") + tm_text("NAME_0", xmod = -7, ymod = -4) +
+  tm_shape(ghana) + tm_polygons(col = "white") + tm_text("NAME_0", xmod = -2, ymod = -2) +
+  tm_shape(liberia) + tm_polygons(col = "white") + tm_text("NAME_0", xmod = 2, ymod = -2)
+
+civmap
+```
+
+Nous pouvons maintenant ajouter une carte de l'Afrique en encart indiquant où se trouve la Côte d'Ivoire.
+
+```{r, warning=FALSE}
+data("wrld_simpl")
+afr <- wrld_simpl[wrld_simpl$REGION==2,]
+
+# extracting bounding box Abidjan
+region <- st_as_sfc(st_bbox(afr))
+
+afrmap <- tm_shape(afr) + tm_polygons() + 
+  tm_shape(ivory_coast) + tm_dots(shape = 16, size = 0.1, col = "orange") +
+  tm_shape(region) + tm_borders(lwd = .2)
+```
+
+Et maintenant dessinons à nouveau notre carte:
+
+```{r, warning=FALSE}
+civmap
+print(afrmap, vp = grid::viewport(0.13, 0.88, width = 0.23, height = 0.23))
+```
+
+Et voilà! Laissez moi un commentaire, si vous avez des idées, observations ou améliorations

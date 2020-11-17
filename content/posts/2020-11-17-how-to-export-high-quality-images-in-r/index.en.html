@@ -1,0 +1,45 @@
+---
+title: How to export high quality images in R
+author: Anicet Ebou
+date: '2020-11-17'
+slug: how-to-export-high-quality-images-in-r
+categories:
+  - R
+tags:
+  - R
+  - rstats
+images: ~
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>There is multiple way to export images in R, but the one I prefer is with the package Cairo. Cairo, gives controls on the properties of the final image and such control is always appreciated especially if you’re planning to submit images in a scientific publication like it’s often the case for me.</p>
+<p>First if you haven’t yet installed Cairo, install it from CRAN with:</p>
+<pre class="r"><code>install.packages(&#39;Cairo&#39;)</code></pre>
+<p>After that let us create a plot for our example:</p>
+<pre class="r"><code>library(ggplot2)
+
+p &lt;- ggplot(data = diamonds, aes(x = price, y = carat, colour = color)) +
+      geom_point()</code></pre>
+<p>Now we define our properties for the image we will export:</p>
+<pre class="r"><code>Cairo::Cairo(
+  13, 8,               # width, height in inch
+  units = &quot;in&quot;,        # unit of width and height of image, inches
+  &quot;diamond_plot.tiff&quot;, # name of the exported image
+  bg = &quot;white&quot;,        # white background
+  type = &quot;tiff&quot;,       # tiff image file
+  dpi = 300            # DPI resolution
+)
+p</code></pre>
+<p><img src="/posts/2020-11-17-how-to-export-high-quality-images-in-r/index.en_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code>invisible(dev.off())   # dev.off() close the file</code></pre>
+<p>Here I use one of my favorite trick: the width and height are numbers of the <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci numbers</a>. One of the particularity of the Fibonacci numbers is that the ratio of two successive numbers for n greater or equal to 3 is approximate the golden number. So they give a great ratio to images!</p>
+<p>For example the beginning of the numbers are:</p>
+<p><code>1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + ...</code></p>
+<p>So for example 2/3 = 0.6666667.</p>
+<p>It gives a great ratio for images and using units like inches ease the use of Fibonacci numbers.</p>
+<p>Now we have our image exported successfully!</p>
+<p>Hope you’ve enjoyed and that you’ll use it. Don’t hesitate to leave a comment if you found it useful.</p>

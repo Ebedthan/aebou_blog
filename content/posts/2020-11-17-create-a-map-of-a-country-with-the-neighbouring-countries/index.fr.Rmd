@@ -1,5 +1,5 @@
 ---
-title: Créer une carte d'un pays avec les pays voisins et une carte en encart
+title: Créer une carte d'un pays avec les pays voisins et une carte en médaillon
 author: Anicet Ebou
 date: '2020-11-17'
 slug: create-a-map-of-a-country-with-the-neighbouring-countries

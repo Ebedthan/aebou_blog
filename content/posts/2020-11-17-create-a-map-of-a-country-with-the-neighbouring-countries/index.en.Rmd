@@ -1,5 +1,5 @@
 ---
-title: Create a map of a country with the neighbouring countries and a inset map of Africa
+title: Create a map of a country with the neighbouring countries and a inset map
 author: Anicet Ebou
 date: '2020-11-17'
 slug: create-a-map-of-a-country-with-the-neighbouring-countries

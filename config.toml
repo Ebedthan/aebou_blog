@@ -58,7 +58,7 @@ disableHugoGeneratorInject = false
   keywords = "R blog, Bioinformatics blog, Personal blog"
   #images = [""]
 
-  homeSubtitle = "Biology & Data"
+  homeSubtitle = "Bioinformatics & Big Data"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""

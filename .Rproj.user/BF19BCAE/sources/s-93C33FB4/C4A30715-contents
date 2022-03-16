@@ -4,6 +4,9 @@ author: Anicet Ebou
 date: '2020-06-10'
 slug: rstudio-is-my-new-python-ide
 ---
+
+![](/img/reticulated_python.png){width=50%}
+ 
  
 I was late testing [Reticulate](https://rstudio.github.io/reticulate/) and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
 

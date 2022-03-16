@@ -3,13 +3,6 @@ title: R is overtaking Python in microbes analysis
 author: Anicet Ebou
 date: '2019-10-26'
 slug: r-is-overtaking-python-in-microbes-analysis
-categories:
-  - R
-tags:
-  - microbes
-  - rstats
-toc: no
-images: ~
 ---
 
 Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.

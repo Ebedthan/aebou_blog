@@ -7,4 +7,5 @@ params:
   themeColor: "theme-base-08"
   layoutReverse: true
   disqusShortname: "aebou"
+  googleAnalytics: "UA-111109114-1"
   

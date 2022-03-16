@@ -1,0 +1,105 @@
+---
+title: Create a map of a country with the neighbouring countries and an inset map
+author: Anicet Ebou
+date: '2020-11-17'
+slug: create-a-map-of-a-country-with-the-neighbouring-countries
+categories: []
+tags: []
+images: ~
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>Drawing map of a country with indications of cities, samples are now common tasks in R. But what about adding to such a map, neighboring countries? Here we go.</p>
+<p>We will draw a map of Ivory Coast with its neighboring countries.</p>
+<p>Let us first load the libraries:</p>
+<pre class="r"><code>library(tmap)   # to draw the map
+library(tibble) # for sites table creation
+library(sf)
+library(maptools)
+library(rgeos)
+library(raster) # to download data</code></pre>
+<p>Then, let us create a tibble with the coordinates of our locations:</p>
+<pre class="r"><code>sites &lt;- tribble(
+  ~id, ~ Sites, ~ lat, ~ long,
+  1, &quot;Abengourou&quot;, 6.7146399, -3.5654096,
+  2, &quot;Aboisso&quot;, 5.4675302, -3.2185867,
+  3, &quot;Agboville&quot;, 5.9342509, -4.2500361,
+  4, &quot;Azaguié&quot;, 5.6305067, -4.0907336,
+  5, &quot;Dabou&quot;, 5.3242556,-4.4098582,
+  6, &quot;Grand-Bassam&quot;, 5.2198516, -3.7821731,
+  7, &quot;Tiassalé&quot;, 5.8985662, -4.8458078
+)</code></pre>
+<p>The coordinates we have added needs to be converted into an sf object for plotting.</p>
+<pre class="r"><code>sf_obj &lt;- st_as_sf(sites, coords = c(&quot;long&quot;, &quot;lat&quot;), crs = 4326) # 4326: Geodetic coordinate system for World</code></pre>
+<p>Let us now load the data of countries:</p>
+<pre class="r"><code>ivory_coast &lt;- getData(&quot;GADM&quot;, country = &quot;CIV&quot;, level = 1)
+guinea &lt;- getData(&quot;GADM&quot;, country = &quot;Guinea&quot;, level = 0)
+mali &lt;- getData(&quot;GADM&quot;, country = &quot;Mali&quot;, level = 0)
+burkina &lt;- getData(&quot;GADM&quot;, country = &quot;Burkina Faso&quot;, level = 0)
+ghana &lt;- getData(&quot;GADM&quot;, country = &quot;Ghana&quot;, level = 0)
+liberia &lt;- getData(&quot;GADM&quot;, country = &quot;Liberia&quot;, level = 0)</code></pre>
+<p>Let us plot our map</p>
+<pre class="r"><code># building the map of Cote d&#39;Ivoire
+tm_shape(ivory_coast) + # carte cote d&#39;ivoire
+  tm_polygons(col = &quot;#f2f0f0&quot;) + # ajouter les polygones
+  tm_shape(sf_obj) + 
+  tm_symbols(size = 1.5) +
+  tm_text(&quot;id&quot;) +
+  tm_layout(frame = FALSE) + # remove box around map
+  tm_shape(guinea) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;) +
+  tm_shape(mali) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;) +
+  tm_shape(burkina) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;) +
+  tm_shape(ghana) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;) +
+  tm_shape(liberia) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;)</code></pre>
+<p><img src="/posts/2020-11-17-create-a-map-of-a-country-with-the-neighbouring-countries/index.en_files/figure-html/unnamed-chunk-5-1.png" width="672" /></p>
+<p>As you can see it our neighboring countries are not really visible. So we need to extend the bounding box of our map.</p>
+<pre class="r"><code># New bbox CI
+bbox_civ &lt;- st_bbox(ivory_coast) # current bounding box
+
+xcrange &lt;- bbox_civ$xmax - bbox_civ$xmin # range of x values
+ycrange &lt;- bbox_civ$ymax - bbox_civ$ymin # range of y values
+
+bbox_civ[1] &lt;- bbox_civ[1] - (0.35 * xcrange) # xmin - left
+bbox_civ[3] &lt;- bbox_civ[3] + (0.35 * xcrange) # xmax - right
+bbox_civ[2] &lt;- bbox_civ[2] - (0.1 * ycrange) # ymin - bottom
+bbox_civ[4] &lt;- bbox_civ[4] + (0.2 * ycrange) # ymax - top
+
+
+bbox_civ &lt;- bbox_civ %&gt;%
+  st_as_sfc()</code></pre>
+<p>Now let us enhance our previous plot:</p>
+<pre class="r"><code>civmap &lt;- tm_shape(ivory_coast, bbox = bbox_civ) + # carte cote d&#39;ivoire
+  tm_polygons(col = &quot;#f2f0f0&quot;) + # ajouter les polygones
+  tm_shape(sf_obj) + 
+  tm_symbols(size = 1.5) +
+  tm_text(&quot;id&quot;) +
+  tm_scale_bar(position = c(&quot;left&quot;, &quot;bottom&quot;)) +
+  tm_layout(frame = FALSE) + # remove box around map
+  tm_compass(position = c(&quot;right&quot;, &quot;top&quot;)) +
+  tm_shape(guinea) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;, xmod = 5, ymod = -2) +
+  tm_shape(mali) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;, xmod = -10, ymod = -18) +
+  tm_shape(burkina) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;, xmod = -7, ymod = -4) +
+  tm_shape(ghana) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;, xmod = -2, ymod = -2) +
+  tm_shape(liberia) + tm_polygons(col = &quot;white&quot;) + tm_text(&quot;NAME_0&quot;, xmod = 2, ymod = -2)
+
+civmap</code></pre>
+<p><img src="/posts/2020-11-17-create-a-map-of-a-country-with-the-neighbouring-countries/index.en_files/figure-html/unnamed-chunk-7-1.png" width="672" /></p>
+<p>Now we can add a inset map of Africa pointing out where Cote d’Ivoire is located.</p>
+<pre class="r"><code>data(&quot;wrld_simpl&quot;)
+afr &lt;- wrld_simpl[wrld_simpl$REGION==2,]
+
+# extracting bounding box Abidjan
+region &lt;- st_as_sfc(st_bbox(afr))
+
+afrmap &lt;- tm_shape(afr) + tm_polygons() + 
+  tm_shape(ivory_coast) + tm_dots(shape = 16, size = 0.1, col = &quot;orange&quot;) +
+  tm_shape(region) + tm_borders(lwd = .2)</code></pre>
+<p>And now let us add the Africa map:</p>
+<pre class="r"><code>civmap
+print(afrmap, vp = grid::viewport(0.13, 0.88, width = 0.23, height = 0.23))</code></pre>
+<p><img src="/posts/2020-11-17-create-a-map-of-a-country-with-the-neighbouring-countries/index.en_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p>Et voilà! Leave me a comment, if you have any ideas, observations or improvements.</p>

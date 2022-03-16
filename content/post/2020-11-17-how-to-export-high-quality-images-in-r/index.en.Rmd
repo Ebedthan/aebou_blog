@@ -1,0 +1,57 @@
+---
+title: How to export high quality images in R
+author: Anicet Ebou
+date: '2020-11-17'
+slug: how-to-export-high-quality-images-in-r
+categories:
+  - R
+tags:
+  - R
+  - rstats
+images: ~
+---
+
+There is multiple way to export images in R, but the one I prefer is with the package Cairo. Cairo, gives controls on the properties of the final image and such control is always appreciated especially if you're planning to submit images in a scientific publication like it's often the case for me.
+
+First if you haven't yet installed Cairo, install it from CRAN with:
+
+```{r, eval=FALSE}
+install.packages('Cairo')
+```
+  
+After that let us create a plot for our example:
+```{r}
+library(ggplot2)
+
+p <- ggplot(data = diamonds, aes(x = price, y = carat, colour = color)) +
+      geom_point()
+```
+
+Now we define our properties for the image we will export:
+
+```{r}
+Cairo::Cairo(
+  13, 8,               # width, height in inch
+  units = "in",        # unit of width and height of image, inches
+  "diamond_plot.tiff", # name of the exported image
+  bg = "white",        # white background
+  type = "tiff",       # tiff image file
+  dpi = 300            # DPI resolution
+)
+p
+invisible(dev.off())   # dev.off() close the file
+```
+
+Here I use one of my favorite trick: the width and height are numbers of the [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number). One of the particularity of the Fibonacci numbers is that the ratio of two successive numbers for n greater or equal to 3 is approximate the golden number. So they give a great ratio to images!
+
+For example the beginning of the numbers are:
+
+`1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + ...`
+
+So for example 2/3 = `r 2/3`.
+
+It gives a great ratio for images and using units like inches ease the use of Fibonacci numbers.
+
+Now we have our image exported successfully!
+
+Hope you've enjoyed and that you'll use it. Don't hesitate to leave a comment if you found it useful.

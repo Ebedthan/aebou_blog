@@ -1,0 +1,45 @@
+---
+title: Comment exporter des images de haute qualité avec R
+author: Anicet Ebou
+date: '2020-11-17'
+slug: how-to-export-high-quality-images-in-r
+categories:
+  - R
+tags:
+  - R
+  - rstats
+images: ~
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
+
+
+<p>Il y a plusieurs façons d’exporter des images dans R, mais celle que je préfère est celle qui utilise le package Cairo. Cairo, permet de contrôler les propriétés de l’image finale et ce contrôle est toujours apprécié, surtout si vous envisagez de soumettre des images avec une publication scientifique comme c’est souvent le cas pour moi.</p>
+<p>Si vous n’avez pas encore installé Cairo, installez-le à partir de CRAN avec :</p>
+<pre class="r"><code>install.packages(&#39;Cairo&#39;)</code></pre>
+<p>Après cela, créons un graphique pour notre exemple :</p>
+<pre class="r"><code>library(ggplot2)
+
+p &lt;- ggplot(data = diamonds, aes(x = price, y = carat, colour = color)) +
+      geom_point()</code></pre>
+<p>Définissons maintenant les propriétés pour l’image que nous allons exporter :</p>
+<pre class="r"><code>Cairo::Cairo(
+  13, 8,               # width, height in inch
+  units = &quot;in&quot;,        # unit of width and height of image, inches
+  &quot;diamond_plot.tiff&quot;, # name of the exported image
+  bg = &quot;white&quot;,        # white background
+  type = &quot;tiff&quot;,       # tiff image file
+  dpi = 300            # DPI resolution
+)
+p</code></pre>
+<p><img src="/posts/2020-11-17-how-to-export-high-quality-images-in-r/index.fr_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<pre class="r"><code>invisible(dev.off())   # dev.off() close the file</code></pre>
+<p>J’utilise ici un de mes tip préféré : la largeur et la hauteur sont des nombres de <a href="https://en.wikipedia.org/wiki/Fibonacci_number">la suite de Fibonacci</a>. Une des particularités des nombres de la suite de Fibonacci est que le rapport de deux nombres successifs pour n supérieur ou égal à 3 est approximatif du nombre d’or. Ils donnent donc un excellent ratio aux images!</p>
+<p>Par exemple, le début des chiffres est :</p>
+<p><code>1 + 1 + 2 + 3 + 5 + 8 + 13 + 21 + ...</code></p>
+<p>Par exemple 2/3 = 0.6666667.</p>
+<p>Il donne un excellent ratio pour les images et l’utilisation d’unités comme les pouces facilite l’utilisation des nombres de Fibonacci.</p>
+<p>Nous avons maintenant notre image exportée avec succès !</p>
+<p>Nous espérons que vous l’avez appréciée et que vous l’utiliserez. N’hésitez pas à laisser un commentaire si vous l’avez trouvé utile.</p>

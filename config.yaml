@@ -1,0 +1,10 @@
+theme: "hyde"
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: Anicet
+params:
+  description: "Randomized thoughts with some bioinformatics"
+  themeColor: "theme-base-08"
+  layoutReverse: true
+  disqusShortname: "aebou"
+  

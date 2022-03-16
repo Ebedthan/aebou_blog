@@ -1,0 +1,42 @@
+---
+title: RStudio is my new Python IDE
+author: Anicet Ebou
+date: '2020-06-10'
+slug: rstudio-is-my-new-python-ide
+---
+ 
+I was late testing [Reticulate](https://rstudio.github.io/reticulate/) and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
+
+### 1. The possibility to execute a chunk of python code with Ctrl + enter like with R
+
+As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.
+I've really found it useful for testing a small part of the code while continuing to write. To the best of my knowledge Rstudio made this really easy to do compared to other IDE.
+
+And if you are plotting a graph it appears in the plot pane in RStudio.
+
+Executing this code in a python chunck or a Python script:
+
+```{python eval=FALSE}
+from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()
+```
+
+You will get this plot:
+
+```{python echo=FALSE}
+from matplotlib import pyplot as plt
+plt.plot([0,1,2,3,4])
+plt.show()
+```
+
+### 2. Global environment active also for Python
+
+While writing code having a list of variables currently in your working environment it's pretty cool. RStudio has it enabled for R code and (in some conditions) for Python code. Check it out, you'll love it.
+
+### 3. Access of variables from python in R directly
+
+If Rstudio provides a list of variables in your environment when you are working with Python code, it also allows you to for example view the data frame you have just imported in the RStudio Viewer.
+
+
+Do you have other tips you have discovered? Please leave a comment or send me an [email](mailto:anicet.ebou@gmail.com). I will be very glad to hear from you.

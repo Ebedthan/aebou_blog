@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.89.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>R is overtaking Python in microbes analysis &middot; Anicet</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-08 layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://aebou.rbind.io/"><h1>Anicet</h1></a>
+      <p class="lead">
+       Randomized thoughts with some bioinformatics 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://aebou.rbind.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>
+      <a href="mailto:anicet.ebou@gmail.com">Email</a>
+      <br/>
+      <a href="https://github.com/Ebedthan">Github</a>
+      <br/>
+      <a href="https://twitter.com/anicetebou">Twitter</a>
+      <br/>
+      <a href="https://scholar.google.com/citations?user=t5Xg23sAAAAJ&hl=en">Google scholar</a>
+      <br/>
+      &copy; 2017-2022
+    </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>R is overtaking Python in microbes analysis</h1>
+  <time datetime=2019-10-26T00:00:00Z class="post-date">Sat, Oct 26, 2019</time>
+  <p>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.</p>
+<p>Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.</p>
+<p>Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.
+Traditionaly, sequences were clustered in operational taxonomic unit (OTUs) following a 97% threshold. But as recent studies ( <a href="https://www.ncbi.nlm.nih.gov/pubmed/27214047">Callahan et al., 2016</a>, <a href="https://msystems.asm.org/content/2/2/e00191-16">Amir et al., 2016</a>, <a href="https://www.ncbi.nlm.nih.gov/pubmed/29506021">Edgar RC, 2018</a>) outline it, olygotyping is now the proper way to cluster amplicon sequences using an update threshold into amplicon sequences variants (ASVs).
+And to do it the two major algorithms has been written in R (dada2) and Python (deblur). But Dada2 seems to be the most used.</p>
+<p>For taxonomic assignment, the <a href="https://rdp.cme.msu.edu/classifier/classifier.jsp">RDP classifier</a> which is always widely used is like the reference for classifying and it has it own implementation in R (assignTaxonomy function in dada2 package). <a href="https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-018-0521-5">IdTaxa</a> that reports a better accuracy than all previous taxonomic classifier, is written in R and part of the DECIPHER package.</p>
+<p>It&rsquo;s like when you want to do data analysis of biological data you are required to know the R language.</p>
+<p>The leadership of R in microbial analysis reveal the great power of adaptation of R and it is an amazing language for manipulating biological data.</p>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>

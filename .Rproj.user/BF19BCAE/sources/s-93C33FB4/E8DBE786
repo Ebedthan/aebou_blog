@@ -3,7 +3,7 @@
     "path": "~/projects/aebou_blog/themes/hyde/layouts/partials/sidebar.html",
     "project_path": "themes/hyde/layouts/partials/sidebar.html",
     "type": "html",
-    "hash": "0",
+    "hash": "2677638346",
     "contents": "",
     "dirty": false,
     "created": 1647469556884.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "11,56",
-        "scrollLine": "10"
+        "cursorPosition": "14,18",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1647469607,
+    "lastKnownWriteTime": 1647469822,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1647469607460,
+    "last_content_update": 1647469822163,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anicet</title>
+    <link>https://aebou.rbind.io/</link>
+    <description>Recent content on Anicet</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://aebou.rbind.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Rust glimpse at Thomas Wang&#39;s integer hash function</title>
+      <link>https://aebou.rbind.io/post/a-rust-glimpse-at-thomas-wang-integer-hash-function/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/a-rust-glimpse-at-thomas-wang-integer-hash-function/</guid>
+      <description>In 1997, Thomas Wang introduced an integer hash function using some techniques invented by Bob Jenkins. The inverted version of this hash was then introduced by Geoffrey Irving.
+This hash function found his way to bioinformatics through Heng Li which used it in miniasm and minimap.
+Pandey et al., further used it also to make the counting quotient filter exact in squeakr.
+Beside work from Jean-Pierre Both, this function have not been explored in Rust albeit to the best of my knowledge.</description>
+    </item>
+    
+    <item>
+      <title>Create a map of a country with the neighbouring countries and an inset map</title>
+      <link>https://aebou.rbind.io/post/create-a-map-of-a-country-with-the-neighbouring-countries/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/create-a-map-of-a-country-with-the-neighbouring-countries/</guid>
+      <description>Drawing map of a country with indications of cities, samples are now common tasks in R. But what about adding to such a map, neighboring countries? Here we go.
+We will draw a map of Ivory Coast with its neighboring countries.
+Let us first load the libraries:
+library(tmap) # to draw the map library(tibble) # for sites table creation library(sf) library(maptools) library(rgeos) library(raster) # to download data Then, let us create a tibble with the coordinates of our locations:</description>
+    </item>
+    
+    <item>
+      <title>How to export high quality images in R</title>
+      <link>https://aebou.rbind.io/post/how-to-export-high-quality-images-in-r/</link>
+      <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/how-to-export-high-quality-images-in-r/</guid>
+      <description>There is multiple way to export images in R, but the one I prefer is with the package Cairo. Cairo, gives controls on the properties of the final image and such control is always appreciated especially if you’re planning to submit images in a scientific publication like it’s often the case for me.
+First if you haven’t yet installed Cairo, install it from CRAN with:
+install.packages(&amp;#39;Cairo&amp;#39;) After that let us create a plot for our example:</description>
+    </item>
+    
+    <item>
+      <title>RStudio is my new Python IDE</title>
+      <link>https://aebou.rbind.io/post/rstudio-is-my-new-python-ide/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/rstudio-is-my-new-python-ide/</guid>
+      <description>I was late testing Reticulate and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
+1. The possibility to execute a chunk of python code with Ctrl + enter like with R As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.</description>
+    </item>
+    
+    <item>
+      <title>R is overtaking Python in microbes analysis</title>
+      <link>https://aebou.rbind.io/post/r-is-overtaking-python-in-microbes-analysis/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/r-is-overtaking-python-in-microbes-analysis/</guid>
+      <description>Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.</description>
+    </item>
+    
+    <item>
+      <title>Why do we need to teach</title>
+      <link>https://aebou.rbind.io/post/why-do-we-need-to-teach/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/why-do-we-need-to-teach/</guid>
+      <description>Context It came to my mind to write this short post to put emphasis on the importance for people to share it. It became a need for me to ouline this point because of the reality that best mind are not always willing to share knowledge, sometimes because they don&amp;rsquo;t see the importance of teachnig. And this fact limit our true power and evolution as a community.
+Why It&amp;rsquo;s important to teach because teaching prove to yourself that you master the subject (at a certain level at least).</description>
+    </item>
+    
+    <item>
+      <title>How I Found Myself doing Data science in marketing</title>
+      <link>https://aebou.rbind.io/post/how-i-found-myself-in-marketing/</link>
+      <pubDate>Sun, 17 Jun 2018 17:37:23 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/how-i-found-myself-in-marketing/</guid>
+      <description>Since February 26 i am working at Seedstars Ivory Coast in a venture named Bora digital who works mostly in marketing and digital marketing.
+From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.
+How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies?</description>
+    </item>
+    
+    <item>
+      <title>How to follow and engage with the R community</title>
+      <link>https://aebou.rbind.io/post/how_to_follow_and_engage_with_the_r_community/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://aebou.rbind.io/post/how_to_follow_and_engage_with_the_r_community/</guid>
+      <description>&amp;ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&amp;rdquo;
+&amp;ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&amp;quot;&amp;mdash;
+Hadley Wickham and Garret Grolemund in R for Data Science.
+ When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.</description>
+    </item>
+    
+  </channel>
+</rss>

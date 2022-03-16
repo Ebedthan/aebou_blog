@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.89.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>A Rust glimpse at Thomas Wang&#39;s integer hash function &middot; Anicet</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class="theme-base-08 layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://aebou.rbind.io/"><h1>Anicet</h1></a>
+      <p class="lead">
+       Randomized thoughts with some bioinformatics 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://aebou.rbind.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>
+      <a href="mailto:anicet.ebou@gmail.com">Email</a>
+      <br/>
+      <a href="https://github.com/Ebedthan">Github</a>
+      <br/>
+      <a href="https://twitter.com/anicetebou">Twitter</a>
+      <br/>
+      <a href="https://scholar.google.com/citations?user=t5Xg23sAAAAJ&hl=en">Google scholar</a>
+      <br/>
+      &copy; 2017-2022
+    </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>A Rust glimpse at Thomas Wang&#39;s integer hash function</h1>
+  <time datetime=2022-03-16T00:00:00Z class="post-date">Wed, Mar 16, 2022</time>
+  <p>In 1997, <a href="http://www.concentric.net/~ttwang/tech/inthash.htm">Thomas Wang introduced an integer hash function</a>
+using some techniques invented by <a href="http://burtleburtle.net/bob/hash">Bob Jenkins</a>.
+The inverted version of this hash was then introduced by <a href="https://naml.us/post/inverse-of-a-hash-function/">Geoffrey Irving</a>.</p>
+<p>This hash function found his way to bioinformatics through <a href="https://gist.github.com/lh3/974ced188be2f90422cc">Heng Li</a> which
+used it in miniasm and minimap.</p>
+<p>Pandey et al., further used it also to make the counting quotient filter exact in
+<a href="https://github.com/splatlab/squeakr">squeakr</a>.</p>
+<p>Beside work from <a href="https://github.com/jean-pierreBoth/probminhash">Jean-Pierre Both</a>,
+this function have not been explored in Rust albeit to the best of my knowledge.</p>
+<p>Here I provides a simple glimpse at his implementation in Rust.</p>
+<h2 id="key-properties-of-the-int-hash">Key properties of the int hash</h2>
+<blockquote>
+<p>A good mixing function must be reversible.</p>
+<p>Thomas Wang</p>
+</blockquote>
+<p>The key property of Thomas Wang&rsquo;s integer hash function are avalanche and invertibility.</p>
+<p>A hash function has form h(x) -&gt; y.  Avalanche means that a single bit of difference in the input will make about 1/2 of the output bits be different.</p>
+<p>Trying to implement theses function in Rust was harder to first though especially
+to find a non buggy mask version. The below implementation does not use a mask.
+(If you find a way to make a version with a mask, please let me know!)</p>
+<h2 id="hash_64-int-hash-64-bit-version">hash_64(): int hash 64 bit version</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">hash_64</span>(key: <span style="color:#66d9ef">u64</span>) -&gt; <span style="color:#66d9ef">u64</span> {
+    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> h_key <span style="color:#f92672">=</span> key;
+
+    <span style="color:#75715e">// key = (key &lt;&lt; 21) - key - 1
+</span><span style="color:#75715e"></span>    h_key <span style="color:#f92672">=</span> (<span style="color:#f92672">!</span>h_key).wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">21</span>);
+    h_key <span style="color:#f92672">=</span> h_key <span style="color:#f92672">^</span> h_key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">24</span>;
+
+    <span style="color:#75715e">// key * 265
+</span><span style="color:#75715e"></span>    h_key <span style="color:#f92672">=</span> h_key.wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">3</span>).wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">8</span>);
+    h_key <span style="color:#f92672">=</span> h_key <span style="color:#f92672">^</span> h_key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">14</span>;
+
+    <span style="color:#75715e">// key * 21
+</span><span style="color:#75715e"></span>    h_key <span style="color:#f92672">=</span> h_key.wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">2</span>).wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">4</span>);
+    h_key <span style="color:#f92672">=</span> h_key <span style="color:#f92672">^</span> h_key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">28</span>;
+
+    h_key <span style="color:#f92672">=</span> h_key.wrapping_add(h_key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">31</span>);
+
+    h_key
+}
+</code></pre></div><p>First, I could have took as input a mut key but just assigning key to a mutable
+variable in the function seems enough for me. Using the primitive methods <a href="https://doc.rust-lang.org/std/primitive.u64.html#method.wrapping_add"><code>wrapping_add</code></a> gives a different code aspect from the C one, but helped my eyes a lot by giving operations a chain like structure.</p>
+<h2 id="hash_64i-invertible-int-hash-64-bit-version">hash_64i(): invertible int hash 64 bit version</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-rust" data-lang="rust"><span style="color:#66d9ef">fn</span> <span style="color:#a6e22e">hash_64i</span>(hashed_key: <span style="color:#66d9ef">u64</span>) -&gt; <span style="color:#66d9ef">u64</span> {
+    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> key <span style="color:#f92672">=</span> hashed_key;
+
+    <span style="color:#75715e">// Invert h_key = h_key.wrapping_add(h_key &lt;&lt; 31)
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">let</span> <span style="color:#66d9ef">mut</span> tmp: <span style="color:#66d9ef">u64</span> <span style="color:#f92672">=</span> key.wrapping_sub(key <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">31</span>);
+    key <span style="color:#f92672">=</span> key.wrapping_sub(tmp <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">31</span>);
+    
+    <span style="color:#75715e">// Invert h_key = h_key ^ h_key &gt;&gt; 28;
+</span><span style="color:#75715e"></span>    tmp <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">28</span>;
+    key <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> tmp <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">28</span>;
+    
+    <span style="color:#75715e">// Invert h_key = h_key.wrapping_add(h_key &lt;&lt; 2).wrapping_add(h_key &lt;&lt; 4)
+</span><span style="color:#75715e"></span>    key <span style="color:#f92672">=</span> key.wrapping_mul(<span style="color:#ae81ff">14933078535860113213</span><span style="color:#66d9ef">u64</span>);
+    
+    <span style="color:#75715e">// Invert h_key = h_key ^ h_key &gt;&gt; 14;
+</span><span style="color:#75715e"></span>    tmp <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">14</span>;
+    tmp <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> tmp <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">14</span>;
+    tmp <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> tmp <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">14</span>;
+    key <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> tmp <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">14</span>;
+    
+    <span style="color:#75715e">// Invert h_key = h_key.wrapping_add(h_key &lt;&lt; 3).wrapping_add(h_key &lt;&lt; 8)
+</span><span style="color:#75715e"></span>    key <span style="color:#f92672">=</span> key.wrapping_mul(<span style="color:#ae81ff">15244667743933553977</span><span style="color:#66d9ef">u64</span>);
+    
+    <span style="color:#75715e">// Invert h_key = h_key ^ h_key &gt;&gt; 24
+</span><span style="color:#75715e"></span>    tmp <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> key <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">24</span>;
+    key <span style="color:#f92672">=</span> key <span style="color:#f92672">^</span> tmp <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">24</span>;
+    
+    <span style="color:#75715e">// Invert h_key = (!h_key).wrapping_add(h_key &lt;&lt; 21)
+</span><span style="color:#75715e"></span>    tmp <span style="color:#f92672">=</span> <span style="color:#f92672">!</span>key;
+    tmp <span style="color:#f92672">=</span> <span style="color:#f92672">!</span>(key.wrapping_sub(tmp <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">21</span>));
+    tmp <span style="color:#f92672">=</span> <span style="color:#f92672">!</span>(key.wrapping_sub(tmp <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">21</span>));
+    key <span style="color:#f92672">=</span> <span style="color:#f92672">!</span>(key.wrapping_sub(tmp <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">21</span>));
+
+    key
+}
+</code></pre></div><p>Most of the lines are inverted by:</p>
+<ul>
+<li>breaking the key into two,</li>
+<li>leaving one piece alone and running the second piece through an invertible function that depends on the first.</li>
+</ul>
+<p>Geoffrey Irving&rsquo;s post is a better place to understand what is going on.</p>
+<p>Don&rsquo;t think you have a problem if you don&rsquo;t understand at first waht is going on
+in these function, this topic is hard enough and bitewise operations logic don&rsquo;t like
+to stay in our head. So do not hesitate to go back to simple terms to have a better
+understanding. <a href="https://doc.rust-lang.org/book/appendix-02-operators.html">Rust operators</a> can help.</p>
+<p>Have a nice day!</p>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>

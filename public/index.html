@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.89.0" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Anicet</title>
+  <meta name="description" content="Randomized thoughts with some bioinformatics" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://aebou.rbind.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://aebou.rbind.io/index.xml" rel="alternate" type="application/rss+xml" title="Anicet" />
+  
+</head>
+
+  <body class="theme-base-08 layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://aebou.rbind.io/"><h1>Anicet</h1></a>
+      <p class="lead">
+       Randomized thoughts with some bioinformatics 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://aebou.rbind.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>
+      <a href="mailto:anicet.ebou@gmail.com">Email</a>
+      <br/>
+      <a href="https://github.com/Ebedthan">Github</a>
+      <br/>
+      <a href="https://twitter.com/anicetebou">Twitter</a>
+      <br/>
+      <a href="https://scholar.google.com/citations?user=t5Xg23sAAAAJ&hl=en">Google scholar</a>
+      <br/>
+      &copy; 2017-2022
+    </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="posts">
+<article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/a-rust-glimpse-at-thomas-wang-integer-hash-function/">A Rust glimpse at Thomas Wang&#39;s integer hash function</a>
+  </h1>
+  <time datetime="2022-03-16T00:00:00Z" class="post-date">Wed, Mar 16, 2022</time>
+  In 1997, Thomas Wang introduced an integer hash function using some techniques invented by Bob Jenkins. The inverted version of this hash was then introduced by Geoffrey Irving.
+This hash function found his way to bioinformatics through Heng Li which used it in miniasm and minimap.
+Pandey et al., further used it also to make the counting quotient filter exact in squeakr.
+Beside work from Jean-Pierre Both, this function have not been explored in Rust albeit to the best of my knowledge.
+  
+  <div class="read-more-link">
+    <a href="/post/a-rust-glimpse-at-thomas-wang-integer-hash-function/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/create-a-map-of-a-country-with-the-neighbouring-countries/">Create a map of a country with the neighbouring countries and an inset map</a>
+  </h1>
+  <time datetime="2020-11-17T00:00:00Z" class="post-date">Tue, Nov 17, 2020</time>
+  Drawing map of a country with indications of cities, samples are now common tasks in R. But what about adding to such a map, neighboring countries? Here we go.
+We will draw a map of Ivory Coast with its neighboring countries.
+Let us first load the libraries:
+library(tmap) # to draw the map library(tibble) # for sites table creation library(sf) library(maptools) library(rgeos) library(raster) # to download data Then, let us create a tibble with the coordinates of our locations:
+  
+  <div class="read-more-link">
+    <a href="/post/create-a-map-of-a-country-with-the-neighbouring-countries/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/how-to-export-high-quality-images-in-r/">How to export high quality images in R</a>
+  </h1>
+  <time datetime="2020-11-17T00:00:00Z" class="post-date">Tue, Nov 17, 2020</time>
+  There is multiple way to export images in R, but the one I prefer is with the package Cairo. Cairo, gives controls on the properties of the final image and such control is always appreciated especially if you’re planning to submit images in a scientific publication like it’s often the case for me.
+First if you haven’t yet installed Cairo, install it from CRAN with:
+install.packages(&#39;Cairo&#39;) After that let us create a plot for our example:
+  
+  <div class="read-more-link">
+    <a href="/post/how-to-export-high-quality-images-in-r/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/rstudio-is-my-new-python-ide/">RStudio is my new Python IDE</a>
+  </h1>
+  <time datetime="2020-06-10T00:00:00Z" class="post-date">Wed, Jun 10, 2020</time>
+  I was late testing Reticulate and how it harnesses Python in R, but I was not deceived. The fact that you can seamlessly work in python inside Rstudio amazed me. I have found some features Rstudio give who are really amazing. Here is the list.
+1. The possibility to execute a chunk of python code with Ctrl + enter like with R As with R code when you have a Python script file, you can execute part of the code using RStudio shortcut like Ctrl + Enter.
+  
+  <div class="read-more-link">
+    <a href="/post/rstudio-is-my-new-python-ide/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/r-is-overtaking-python-in-microbes-analysis/">R is overtaking Python in microbes analysis</a>
+  </h1>
+  <time datetime="2019-10-26T00:00:00Z" class="post-date">Sat, Oct 26, 2019</time>
+  Microbial analysis using amplicon genes is a good field for data analysis. The fact that microbes are ubiquitous in our environments and that high throughput sequencing causes a data deluge are the main causes.
+Crucial steps in microbial analysis are primers removing, demultiplexing, filtering and trimming of sequences, fitting of error models, sequences clustering and taxonomic assignment.
+Among above steps sequences clustering and taxonomic assignments appears as the most challenging. Sequences clustering, aims to reduce inherent PCR and DNA sequencing errors.
+  
+  <div class="read-more-link">
+    <a href="/post/r-is-overtaking-python-in-microbes-analysis/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/why-do-we-need-to-teach/">Why do we need to teach</a>
+  </h1>
+  <time datetime="2019-10-25T00:00:00Z" class="post-date">Fri, Oct 25, 2019</time>
+  Context It came to my mind to write this short post to put emphasis on the importance for people to share it. It became a need for me to ouline this point because of the reality that best mind are not always willing to share knowledge, sometimes because they don&rsquo;t see the importance of teachnig. And this fact limit our true power and evolution as a community.
+Why It&rsquo;s important to teach because teaching prove to yourself that you master the subject (at a certain level at least).
+  
+  <div class="read-more-link">
+    <a href="/post/why-do-we-need-to-teach/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/how-i-found-myself-in-marketing/">How I Found Myself doing Data science in marketing</a>
+  </h1>
+  <time datetime="2018-06-17T17:37:23Z" class="post-date">Sun, Jun 17, 2018</time>
+  Since February 26 i am working at Seedstars Ivory Coast in a venture named Bora digital who works mostly in marketing and digital marketing.
+From a first background of agronomy (my Bsc) to bioinformatics (my master), at each step i have faced surprises, questions and oppositions from peoples around me.
+How do you did it? Why are you know working in marketings ? Why are you not as your peers working in farms or at least pursuing bioinformatics studies?
+  
+  <div class="read-more-link">
+    <a href="/post/how-i-found-myself-in-marketing/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="https://aebou.rbind.io/post/how_to_follow_and_engage_with_the_r_community/">How to follow and engage with the R community</a>
+  </h1>
+  <time datetime="2017-12-19T00:00:00Z" class="post-date">Tue, Dec 19, 2017</time>
+  &ldquo;R is not just a programming language, but it is also an interactive environment for doing data science.&rdquo;
+&ldquo;Investing a little time in learning R each day will pay off handsomely in the long run.&quot;&mdash;
+Hadley Wickham and Garret Grolemund in R for Data Science.
+ When i have heard for the first time about R, i was a student in Bsc in agronomy in Ivory Coast. My professor of statistics just told me that R was great comparing to other statistical software and gave me the link to the site of the comprehensive R archive network.
+  
+  <div class="read-more-link">
+    <a href="/post/how_to_follow_and_engage_with_the_r_community/">Read More…</a>
+  </div>
+  
+</article>
+</div>
+    </main>
+
+    
+      
+    
+  </body>
+</html>
